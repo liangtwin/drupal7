@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url><loc>http://www.mrating.com/</loc><changefreq>daily</changefreq><priority>1.0</priority></url>
+<url><loc>http://www.mrating.com/content/risk-assessment-meeting-guide</loc><lastmod>2012-07-28T13:48Z</lastmod><changefreq>yearly</changefreq></url>
+<url><loc>http://www.mrating.com/content/how-conduct-successful-meeting</loc><lastmod>2012-07-30T03:16Z</lastmod><changefreq>yearly</changefreq></url>
+<url><loc>http://www.mrating.com/content/drupal-project-application-checklist</loc><lastmod>2012-07-31T05:20Z</lastmod><changefreq>yearly</changefreq></url>
+<url><loc>http://www.mrating.com/content/software-requirements-specification-checklist</loc><lastmod>2012-07-31T05:51Z</lastmod><changefreq>yearly</changefreq></url>
+<url><loc>http://www.mrating.com/template-category/estimation</loc></url>
+<url><loc>http://www.mrating.com/template-category/requirement</loc></url>
+<url><loc>http://www.mrating.com/template-category/design</loc></url>
+<url><loc>http://www.mrating.com/template-category/project-plan</loc></url>
+<url><loc>http://www.mrating.com/template-category/meeting-munites</loc></url>
+<url><loc>http://www.mrating.com/template-category/project-track</loc></url>
+<url><loc>http://www.mrating.com/template-category/checklist</loc></url>
+</urlset>

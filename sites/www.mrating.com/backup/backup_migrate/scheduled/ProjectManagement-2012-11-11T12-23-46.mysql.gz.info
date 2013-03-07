@@ -1,0 +1,8 @@
+filename = "ProjectManagement-2012-11-11T12-23-46"
+description = ""
+datestamp = "1352607830"
+generator = "Backup and Migrate (http://drupal.org/project/backup_migrate)"
+generatorversion = "7.x-2.x"
+sites[0][version] = "7.16"
+sites[0][name] = "Project Management"
+sites[0][url] = "http://www.mrating.com/"

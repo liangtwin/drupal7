@@ -1,0 +1,8 @@
+filename = "2012-09-19T03-02-44"
+description = ""
+datestamp = "1347994999"
+generator = "Backup and Migrate (http://drupal.org/project/backup_migrate)"
+generatorversion = "7.x-2.x"
+sites[0][version] = "7.15"
+sites[0][name] = "空手道永道馆（日本空手松涛连盟上海支部）"
+sites[0][url] = "http://www.youngkarate.com/"
