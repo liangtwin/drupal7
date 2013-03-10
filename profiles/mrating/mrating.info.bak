@@ -1,0 +1,43 @@
+name = Mrating
+description = Install with commonly used features pre-configured for mrating.
+version = VERSION
+core = 7.x
+
+; Core modules
+dependencies[] = block
+dependencies[] = color
+dependencies[] = comment
+dependencies[] = contextual
+dependencies[] = dashboard
+dependencies[] = help
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = taxonomy
+dependencies[] = dblog
+dependencies[] = search
+dependencies[] = shortcut
+dependencies[] = toolbar
+dependencies[] = overlay
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = rdf
+
+; contribute module
+dependencies[] = module_filter
+dependencies[] = views
+dependencies[] = views_ui
+dependencies[] = votingapi
+dependencies[] = fivestar
+dependencies[] = taxonomy_manager
+dependencies[] = features
+dependencies[] = clamav
+
+; Information added by drupal.org packaging script on 2013-03-07
+version = "7.21"
+project = "drupal"
+datestamp = "1362616996"
+
