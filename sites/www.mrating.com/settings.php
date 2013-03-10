@@ -210,21 +210,7 @@
  *   );
  * @endcode
  */
-$databases = array (
-  'default' => 
-  array (
-    'default' => 
-    array (
-      'database' => 'mrating',
-      'username' => 'mrating',
-      'password' => 'mr@tingdb',
-      'host' => 'localhost',
-      'port' => '',
-      'driver' => 'mysql',
-      'prefix' => '',
-    ),
-  ),
-);
+$databases = array();
 
 /**
  * Access control for update.php script.
@@ -256,7 +242,7 @@ $update_free_access = FALSE;
  *   $drupal_hash_salt = file_get_contents('/home/example/salt.txt');
  *
  */
-$drupal_hash_salt = 'New_W8Z8cVpKgC1WYYewtXL8GziM4wDNKVkJMNJsYZk';
+$drupal_hash_salt = '';
 
 /**
  * Base URL (optional).
