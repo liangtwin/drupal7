@@ -36,6 +36,25 @@ dependencies[] = fivestar
 dependencies[] = taxonomy_manager
 dependencies[] = features
 dependencies[] = clamav
+dependencies[] = admin_menu
+dependencies[] = google_analytics
+dependencies[] = libraries
+dependencies[] = mollom
+dependencies[] = print
+dependencies[] = l10n_update
+dependencies[] = maillog
+dependencies[] = metatags
+dependencies[] = pathauto
+dependencies[] = sharethis
+dependencies[] = xmlsitemap
+dependencies[] = services
+dependencies[] = token
+dependencies[] = ckeditor
+dependencies[] = apc
+dependencies[] = media
+dependencies[] = nodequeue
+dependencies[] = site_verify
+
 
 ; Information added by drupal.org packaging script on 2013-03-07
 version = "7.21"
