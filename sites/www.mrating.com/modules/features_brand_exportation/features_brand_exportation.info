@@ -1,0 +1,13 @@
+name = Features Brand Exportation
+core = 7.x
+package = Features
+php = 5.2.4
+version = 7.x-1.0
+project = features_brand_exportation
+dependencies[] = features_ct_brand_creatation
+dependencies[] = uuid_features
+__drupal_alter_by_ref[][node][brand] = brand
+features[features_api][] = api:1
+features[uuid_node][] = 145196f7-f1bf-48f2-b7d5-c9789dc4200b
+features[uuid_node][] = 37c49ffe-e184-4ecb-89c1-25e35b6aee49
+features[uuid_node][] = 5d3e8a1b-8dae-450b-9ad7-b5cbefa4b79a

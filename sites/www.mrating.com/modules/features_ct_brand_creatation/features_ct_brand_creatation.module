@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Features CT brand creatation feature.
+ */
+
+include_once 'features_ct_brand_creatation.features.inc';
