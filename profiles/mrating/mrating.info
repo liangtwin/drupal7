@@ -34,6 +34,7 @@ dependencies[] = backup_migrate
 dependencies[] = ckeditor
 dependencies[] = clamav
 dependencies[] = countries
+dependencies[] = disqus
 dependencies[] = features
 dependencies[] = fe_block
 dependencies[] = filter_perms
@@ -46,7 +47,7 @@ dependencies[] = media
 dependencies[] = metatag
 dependencies[] = migrate
 dependencies[] = module_filter
-dependencies[] = mollom
+;dependencies[] = mollom
 dependencies[] = nodequeue
 dependencies[] = pathauto
 dependencies[] = print
@@ -61,16 +62,22 @@ dependencies[] = uuid_features
 dependencies[] = views
 dependencies[] = views_ui
 dependencies[] = votingapi
+dependencies[] = mrating_votingapi_export
 dependencies[] = xmlsitemap
 ;dependencies[] = l10n_update
 dependencies[] = features_clamav_configuration
-dependencies[] = features_ct_brand_creatation
+dependencies[] = features_disqus_configuration
+dependencies[] = features_permission_configuration
 dependencies[] = features_ckeditor_configuration
+dependencies[] = features_ct_article_creatation
+dependencies[] = features_ct_page_creatation
+dependencies[] = features_ct_brand_creatation
 dependencies[] = features_category_exportation
+dependencies[] = features_file_system_configuration
 dependencies[] = features_brand_exportation
+
 
 ; Information added by drupal.org packaging script on 2013-03-07
 version = "7.21"
 project = "drupal"
 datestamp = "1362616996"
-

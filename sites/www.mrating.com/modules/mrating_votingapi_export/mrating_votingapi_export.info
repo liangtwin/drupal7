@@ -1,0 +1,16 @@
+name = Mrating VotingAPI Export
+description = "Export the values restored in votingapi_cache and votingapi_vote"
+core = 7.x
+
+dependencies[] = votingapi
+
+files[] = mrating_votingapi_export.module
+files[] = mrating_votingapi_export.inc
+configure = admin/config/search/votingapiexport
+
+; Information added by drupal.org packaging script on 2011-02-20
+version = "7.x-1.0"
+core = "7.x"
+project = "mrating_votingapi_export"
+datestamp = "1298242613"
+

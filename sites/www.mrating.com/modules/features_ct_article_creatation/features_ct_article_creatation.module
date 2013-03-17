@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Features CT Article Creatation feature.
+ */
+
+include_once 'features_ct_article_creatation.features.inc';
