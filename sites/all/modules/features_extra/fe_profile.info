@@ -1,14 +1,15 @@
-name = FE profile
+name = FE Profile
 description = Export profile field using features.
-package = "Features extra"
+core = 7.x
+package = Features extra
+
 dependencies[] = ctools
 dependencies[] = features
 dependencies[] = profile
-core = 7.x
 
-; Information added by drupal.org packaging script on 2013-03-02
-version = "7.x-1.0-alpha2+7-dev"
+; Information added by drupal.org packaging script on 2013-03-14
+version = "7.x-1.0-alpha2+9-dev"
 core = "7.x"
 project = "features_extra"
-datestamp = "1362228960"
+datestamp = "1363266186"
 

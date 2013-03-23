@@ -1,0 +1,75 @@
+<?php
+/**
+ * @file
+ * Insert configuration of Profiles and Schedules in Backup and Migrate.
+ */
+
+/**
+ * Implements hook_install().
+ */
+function mrating_backup_migrate_configuration_install() {
+  _backup_migrate_conf_import();
+}
+
+/**
+ * Call backup_migrate_crud_create_item() in Backup and Migration.
+ */
+function _backup_migrate_conf_import() {
+  require_once DRUPAL_ROOT . '/'. drupal_get_path('module', 'backup_migrate') .'/includes/crud.inc';
+  require_once DRUPAL_ROOT . '/'. drupal_get_path('module', 'backup_migrate') .'/backup_migrate.module';
+  require_once DRUPAL_ROOT . '/'. drupal_get_path('module', 'backup_migrate') .'/includes/profiles.inc';
+  require_once DRUPAL_ROOT . '/'. drupal_get_path('module', 'backup_migrate') .'/includes/db.inc';
+  require_once DRUPAL_ROOT . '/'. drupal_get_path('module', 'backup_migrate') .'/includes/files.inc';
+  require_once DRUPAL_ROOT . '/'. drupal_get_path('module', 'backup_migrate') .'/includes/schedules.inc';
+
+  //variable_set("backup_migrate_profile_id", 'default');
+  $schedule_database = array (
+  'schedule_id' => '399b546689d498a630eb55efe84f2cda',
+  'name' => 'Database Daily Backup',
+  'source_id' => 'db',
+  'destination_id' => 'scheduled',
+  'profile_id' => 'default',
+  'keep' => '10',
+  'period' => '86400',
+  'enabled' => '1',
+  'cron' => '0',
+  );
+  $schedule_database = backup_migrate_crud_create_item('schedule', $schedule_database);
+  $schedule_database->save();
+  
+  $schedule_private_file = array (
+  'schedule_id' => '6abc58273e9aee47b82e439d23c79558',
+  'name' => 'Private Files Daily Backup',
+  'source_id' => 'files_private',
+  'destination_id' => 'scheduled',
+  'profile_id' => 'default',
+  'keep' => '5',
+  'period' => '86400',
+  'enabled' => '1',
+  'cron' => '0',
+  );
+  $schedule_private_file = backup_migrate_crud_create_item('schedule', $schedule_private_file);
+  $schedule_private_file->save();
+  
+  $schedule_public_file = array (
+  'schedule_id' => 'a66214f97e8cf231dd3f4d7cdd557038',
+  'name' => 'Public Files Daily Backup',
+  'source_id' => 'files',
+  'destination_id' => 'scheduled',
+  'profile_id' => 'default',
+  'keep' => '5',
+  'period' => '86400',
+  'enabled' => '1',
+  'cron' => '0',
+  );
+  $schedule_public_file = backup_migrate_crud_create_item('schedule', $schedule_public_file);
+  $schedule_public_file->save();
+}
+
+/**
+ * Implements hook_uninstall().
+ */
+function mrating_backup_migrate_configuration_uninstall() {
+  db_query("DELETE FROM {variable} WHERE name LIKE 'backup_migrate_%'");
+  cache_clear_all('variables', 'cache');
+}

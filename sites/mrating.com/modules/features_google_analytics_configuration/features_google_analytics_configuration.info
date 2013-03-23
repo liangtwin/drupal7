@@ -1,0 +1,11 @@
+name = Features Google Analytics Configuration
+core = 7.x
+package = Features
+version = 7.x-1.0
+project = features_google_analytics_configuration
+dependencies[] = ctools
+dependencies[] = strongarm
+features[ctools][] = strongarm:strongarm:1
+features[features_api][] = api:1
+features[variable][] = googleanalytics_account
+project path = sites/mrating.com/modules
