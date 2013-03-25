@@ -433,7 +433,7 @@ function mrating_install() {
   variable_set('node_admin_theme', '1');
 
   $enable = array(
-    'theme_default' => 'skeletontheme',
+    'theme_default' => 'pixture_reloaded',
     'admin_theme' => 'seven',
     //'zen'
   );

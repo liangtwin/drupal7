@@ -1,0 +1,11 @@
+name = Features Views Top100 Exportation
+core = 7.x
+package = Features
+version = 7.x-1.0
+project = features_views_top100_exportation
+dependencies[] = views
+features[ctools][] = views:views_default:3.0
+features[features_api][] = api:1
+features[views_view][] = top_100
+features_exclude[dependencies][ctools] = ctools
+project path = sites/mrating.com/modules

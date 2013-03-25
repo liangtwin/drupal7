@@ -28,6 +28,7 @@ dependencies[] = rdf
 dependencies[] = locale
 
 ; contribute module
+;dependencies[] = ad
 dependencies[] = admin_menu
 dependencies[] = apc
 dependencies[] = backup_migrate
@@ -49,7 +50,6 @@ dependencies[] = maillog
 dependencies[] = masquerade
 dependencies[] = media
 dependencies[] = metatag
-dependencies[] = migrate
 dependencies[] = module_filter
 ;dependencies[] = mollom
 dependencies[] = mrating_votingapi_export
@@ -62,6 +62,7 @@ dependencies[] = services
 dependencies[] = site_verify
 dependencies[] = strongarm
 dependencies[] = superfish
+dependencies[] = taxonomy_display
 dependencies[] = taxonomy_manager
 dependencies[] = taxonomy_menu
 dependencies[] = token
@@ -74,7 +75,7 @@ dependencies[] = xmlsitemap
 ;dependencies[] = l10n_update
 
 dependencies[] = features_b_m_configuration
-dependencies[] = features_block_superfish_configuration
+dependencies[] = features_block_configuration
 dependencies[] = features_clamav_configuration
 dependencies[] = features_ckeditor_configuration
 dependencies[] = features_ct_article_creatation
@@ -90,8 +91,11 @@ dependencies[] = features_permission_configuration
 dependencies[] = features_print_configuration
 dependencies[] = features_sharethis_configuration
 dependencies[] = features_taxonomy_menu_configuration
+dependencies[] = features_theme_configuration 
+dependencies[] = features_views_taxonomy_views 
+dependencies[] = features_views_top100_exportation
 dependencies[] = features_xml_sitemap_configuration
-;dependencies[] = features_brand_importation
+dependencies[] = features_brand_importation
 
 
 ; Information added by drupal.org packaging script on 2013-03-07

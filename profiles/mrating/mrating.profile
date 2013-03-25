@@ -11,7 +11,7 @@
  */
 function mrating_form_install_configure_form_alter(&$form, $form_state) {
   // Pre-populate the site name with the server name.
-  $form['site_information']['site_name']['#default_value'] = 'È«ÇòÆ·ÅÆÍø';
+  $form['site_information']['site_name']['#default_value'] = 'Martin';
   $form['site_information']['site_mail']['#default_value'] = 'admin@mrating.com';
 
   // Account information defaults

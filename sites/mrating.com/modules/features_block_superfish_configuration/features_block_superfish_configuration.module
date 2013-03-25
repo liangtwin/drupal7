@@ -1,7 +1,0 @@
-<?php
-/**
- * @file
- * Code for the Features Block Superfish Configuration feature.
- */
-
-include_once 'features_block_superfish_configuration.features.inc';
