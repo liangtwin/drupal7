@@ -74,7 +74,6 @@ dependencies[] = votingapi
 dependencies[] = xmlsitemap
 ;dependencies[] = l10n_update
 
-dependencies[] = features_b_m_configuration
 dependencies[] = features_block_configuration
 dependencies[] = features_clamav_configuration
 dependencies[] = features_ckeditor_configuration
