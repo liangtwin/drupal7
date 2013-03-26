@@ -128,4 +128,10 @@ DirectoryIndex index.php index.html index.htm
       Header append Vary Accept-Encoding
     </FilesMatch>
   </IfModule>
+  
+  AuthName "test"
+  AuthType Basic
+  AuthUserFile /var/www/drupal7/.htpasswd
+  require valid-user
+
 </IfModule>
