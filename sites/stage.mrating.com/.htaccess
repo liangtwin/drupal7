@@ -1,4 +1,4 @@
-AuthName "test"
+AuthName "stage.mrating.com"
 AuthType Basic
 AuthUserFile /var/www/drupal7/sites/stage.mrating.com/.htpasswd
 require valid-user
