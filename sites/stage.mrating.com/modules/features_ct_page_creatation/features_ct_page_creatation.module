@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Features CT Page Creatation feature.
+ */
+
+include_once 'features_ct_page_creatation.features.inc';

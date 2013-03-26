@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Features Taxonomy Menu Configuration feature.
+ */
+
+include_once 'features_taxonomy_menu_configuration.features.inc';

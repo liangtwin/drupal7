@@ -1,0 +1,15 @@
+name = Features Tax Category Exportation
+core = 7.x
+package = Features
+version = 7.x-1.0
+project = features_tax_category_exportation
+dependencies[] = features
+dependencies[] = taxonomy
+dependencies[] = uuid
+dependencies[] = uuid_features
+features[features_api][] = api:1
+features[taxonomy][] = category
+features[uuid_term][] = 204c8e13-6643-4f27-946d-8214fd2a40f6
+features[uuid_term][] = 7b1a1263-9bc3-45b0-b332-e15228cf7a61
+features[uuid_term][] = 8e212dcf-ee47-4b01-8151-0a8f736e724b
+project path = sites/mrating.com/modules

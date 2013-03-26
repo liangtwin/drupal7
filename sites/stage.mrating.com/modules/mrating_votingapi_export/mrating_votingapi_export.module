@@ -1,0 +1,56 @@
+<?php
+/**
+ * @file
+ * A module to support export the values restored in 
+ * votingapi_cache and votingapi_vote.
+ */
+
+/**
+ * Implements hook_help().
+ *
+ * Displays help and module information.
+ */
+function mrating_votingapi_export_help($path, $arg) {
+  switch ($path) {
+    case "admin/help#mrating_votingapi_export":
+      return '<p>' . t("Voting API help") . '</p>';
+
+    break;
+  }
+}
+
+/**
+ * Implements hook_menu().
+ */
+function mrating_votingapi_export_menu() {
+  $items = array();
+
+  $items['admin/config/search/votingapiexport'] = array(
+    'title' => 'Voting API Export',
+    'description' => 'Configuration for Voting API Export module',
+    'type' => MENU_NORMAL_ITEM,
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('mrating_votingapi_export_form'),
+    'access arguments' => array('access administration pages'),
+    'file' => 'mrating_votingapi_export.admin.inc',
+  );
+
+  $items['admin/config/search/votingapiexport/export'] = array(
+    'title' => 'Export',
+    'description' => 'Configuration for Voting API Export module',
+    'type' => MENU_DEFAULT_LOCAL_TASK,
+    'access arguments' => array('access administration pages'),
+  );
+
+  $items['admin/config/search/votingapiexport/import'] = array(
+    'title' => 'Import',
+    'description' => 'Configuration for Voting API Import module',
+    'type' => MENU_LOCAL_TASK,
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('mrating_votingapi_import_form'),
+    'access arguments' => array('access administration pages'),
+    'file' => 'mrating_votingapi_import.admin.inc',
+  );
+
+  return $items;
+}

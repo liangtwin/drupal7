@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Features Views Top100 Exportation feature.
+ */
+
+include_once 'features_views_top100_exportation.features.inc';

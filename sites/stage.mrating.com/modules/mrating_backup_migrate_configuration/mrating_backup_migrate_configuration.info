@@ -1,0 +1,15 @@
+name = Mrating Backup Migrate Configuration
+description = "Import the initial configuration of Backup and Migration"
+core = 7.x
+
+dependencies[] = backup_migrate
+dependencies[] = backup_migrate_files
+dependencies[] = ctools
+
+files[] = mrating_backup_migrate_configuration.module
+files[] = mrating_backup_migrate_configuration.install
+
+version = "7.x-1.0"
+core = "7.x"
+project = "mrating_backup_migrate_configuration"
+datestamp = "1298242613"

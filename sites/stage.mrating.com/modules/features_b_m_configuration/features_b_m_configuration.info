@@ -1,0 +1,15 @@
+name = Features B_M Configuration
+description = Features Back and Migrate Configuration
+core = 7.x
+package = Features
+version = 7.x-1.0
+project = features_b_m_configuration
+dependencies[] = ctools
+dependencies[] = strongarm
+features[ctools][] = strongarm:strongarm:1
+features[features_api][] = api:1
+features[variable][] = backup_migrate_profile_id
+features[variable][] = backup_migrate_schedule_last_run_399b546689d498a630eb55efe84f2cda
+features[variable][] = backup_migrate_schedule_last_run_6abc58273e9aee47b82e439d23c79558
+features[variable][] = backup_migrate_schedule_last_run_a66214f97e8cf231dd3f4d7cdd557038
+project path = sites/mrating.com/modules

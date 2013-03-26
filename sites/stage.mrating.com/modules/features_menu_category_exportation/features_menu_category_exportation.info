@@ -1,0 +1,14 @@
+name = Features Menu Category Exportation
+core = 7.x
+package = Features
+php = 5.2.4
+version = 7.x-1.0
+project = features_menu_category_exportation
+dependencies[] = features
+dependencies[] = menu
+features[features_api][] = api:1
+features[menu_custom][] = menu-category
+features[menu_links][] = menu-category:taxonomy/term/1
+features[menu_links][] = menu-category:taxonomy/term/2
+features[menu_links][] = menu-category:taxonomy/term/3
+project path = sites/mrating.com/modules

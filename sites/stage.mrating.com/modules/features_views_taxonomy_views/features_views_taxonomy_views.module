@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Features Views Taxonomy Views feature.
+ */
+
+include_once 'features_views_taxonomy_views.features.inc';
