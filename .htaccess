@@ -130,6 +130,6 @@ DirectoryIndex index.php index.html index.htm
   </IfModule>
   AuthName "Protected"
   AuthType Basic
-  AuthUserFile /var/www/drupal7/sites/stage.mrating.com/.htpasswd
+  AuthUserFile /var/www/drupal7/.htpasswd
   require valid-user
 </IfModule>
