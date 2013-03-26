@@ -128,15 +128,4 @@ DirectoryIndex index.php index.html index.htm
       Header append Vary Accept-Encoding
     </FilesMatch>
   </IfModule>
-  SetEnvIf Request_URI ^www.mrating.com noauth=1
-  
-  AuthName "test"
-  AuthType Basic
-  AuthUserFile /var/www/drupal7/.htpasswd
-  
-  Order Deny,Allow
-  Satisfy any
-  Deny from all
-  Require valid-user
-  Allow from env=noauth
 </IfModule>
