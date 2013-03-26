@@ -34,7 +34,7 @@ function features_block_configuration_default_fe_block_settings() {
         'weight' => '0',
       ),
     ),
-    'title' => 'Secondary AD',
+    'title' => '<none>',
     'visibility' => '0',
   );
 

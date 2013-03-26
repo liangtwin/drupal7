@@ -1,7 +1,0 @@
-<?php
-/**
- * @file
- * Code for the Features B_M Configuration feature.
- */
-
-include_once 'features_b_m_configuration.features.inc';
