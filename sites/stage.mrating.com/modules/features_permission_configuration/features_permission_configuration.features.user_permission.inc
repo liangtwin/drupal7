@@ -215,6 +215,15 @@ function features_permission_configuration_user_default_permissions() {
     'module' => 'node',
   );
 
+  // Exported permission: administer css injection.
+  $permissions['administer css injection'] = array(
+    'name' => 'administer css injection',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'css_injector',
+  );
+
   // Exported permission: administer disqus.
   $permissions['administer disqus'] = array(
     'name' => 'administer disqus',
@@ -515,7 +524,9 @@ function features_permission_configuration_user_default_permissions() {
   // Exported permission: allow CKFinder file uploads.
   $permissions['allow CKFinder file uploads'] = array(
     'name' => 'allow CKFinder file uploads',
-    'roles' => array(),
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
     'module' => 'ckeditor',
   );
 
