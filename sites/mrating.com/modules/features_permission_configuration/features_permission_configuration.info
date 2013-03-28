@@ -104,7 +104,6 @@ features[user_permission][] = administer uuid
 features[user_permission][] = administer views
 features[user_permission][] = administer voting api
 features[user_permission][] = administer xmlsitemap
-features[user_permission][] = allow CKFinder file uploads
 features[user_permission][] = block IP addresses
 features[user_permission][] = bypass node access
 features[user_permission][] = cancel account

@@ -521,15 +521,6 @@ function features_permission_configuration_user_default_permissions() {
     'module' => 'xmlsitemap',
   );
 
-  // Exported permission: allow CKFinder file uploads.
-  $permissions['allow CKFinder file uploads'] = array(
-    'name' => 'allow CKFinder file uploads',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
-    'module' => 'ckeditor',
-  );
-
   // Exported permission: block IP addresses.
   $permissions['block IP addresses'] = array(
     'name' => 'block IP addresses',
