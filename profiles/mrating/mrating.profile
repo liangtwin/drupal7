@@ -16,7 +16,7 @@ function mrating_form_install_configure_form_alter(&$form, $form_state) {
 
   // Account information defaults
   $form['admin_account']['account']['name']['#default_value'] = 'martin';
-  $form['admin_account']['account']['mail']['#default_value'] = 'admin@mrating.com';
+  $form['admin_account']['account']['mail']['#default_value'] = 'liangtwin@gmail.com';
 
   // Date/time settings
   $form['server_settings']['site_default_country']['#default_value'] = 'CN';
