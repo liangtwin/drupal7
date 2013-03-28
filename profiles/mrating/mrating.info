@@ -39,6 +39,7 @@ dependencies[] = coder
 dependencies[] = coder_review
 dependencies[] = copyright_block
 dependencies[] = countries
+dependencies[] = css_injector
 dependencies[] = disqus
 dependencies[] = devel
 dependencies[] = features
