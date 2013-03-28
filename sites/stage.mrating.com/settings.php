@@ -210,21 +210,7 @@
  *   );
  * @endcode
  */
-$databases = array (
-  'default' => 
-  array (
-    'default' => 
-    array (
-      'database' => 'mrating_stage',
-      'username' => 'mrating',
-      'password' => 'mr@tingdb',
-      'host' => 'localhost',
-      'port' => '',
-      'driver' => 'mysql',
-      'prefix' => '',
-    ),
-  ),
-);
+$databases = array();
 
 /**
  * Access control for update.php script.
@@ -256,7 +242,7 @@ $update_free_access = FALSE;
  *   $drupal_hash_salt = file_get_contents('/home/example/salt.txt');
  *
  */
-$drupal_hash_salt = 'hyO1Hat1XYsJaGqMZuUPxDdwVV2wz_xUzqYg-Ugh7pg';
+$drupal_hash_salt = '';
 
 /**
  * Base URL (optional).
@@ -565,3 +551,37 @@ $conf['404_fast_html'] = '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
  * Remove the leading hash signs to disable.
  */
 # $conf['allow_authorize_operations'] = FALSE;
+
+// Make sure drush keeps working. 
+// Modified from function drush_verify_cli()
+$cli = (php_sapi_name() == 'cli');
+
+// PASSWORD PROTECT NON-PRODUCTION SITES (i.e. staging/dev)
+if (!$cli) {
+  if (!isset($_GET['cron_key'])) {
+    $username = 'mrating';
+    $password = 'Mrating2323';
+    $redirect_required = FALSE;
+    
+    // PHP-cgi fix
+   /* $a = base64_decode( substr($_SERVER["REMOTE_USER"],6)) ;
+	print_r($_SERVER["REMOTE_USER"]);
+    if ( (strlen($a) == 0) || ( strcasecmp($a, ":" ) == 0 )) {
+      header( 'WWW-Authenticate: Basic realm="Private"' );
+      header( 'HTTP/1.0 401 Unauthorized' );
+    }
+    else {
+      list($name, $pass) = explode(':', $a);
+      $_SERVER['PHP_AUTH_USER'] = $name;
+      $_SERVER['PHP_AUTH_PW'] = $pass;
+    }*/
+	
+    if (!(isset($_SERVER['PHP_AUTH_USER']) && ($_SERVER['PHP_AUTH_USER']==$username && $_SERVER['PHP_AUTH_PW']==$password))) {
+      header('WWW-Authenticate: Basic realm="This site is protected"');
+      header('HTTP/1.0 401 Unauthorized');
+      // Fallback message when the user presses cancel / escape
+      echo 'Access denied';
+      exit;
+    }
+  }
+}
