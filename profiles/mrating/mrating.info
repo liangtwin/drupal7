@@ -37,6 +37,7 @@ dependencies[] = ckeditor
 dependencies[] = clamav
 dependencies[] = coder
 dependencies[] = coder_review
+dependencies[] = copyright_block
 dependencies[] = countries
 dependencies[] = disqus
 dependencies[] = devel

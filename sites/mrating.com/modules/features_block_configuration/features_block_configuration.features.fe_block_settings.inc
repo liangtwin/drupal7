@@ -64,6 +64,32 @@ function features_block_configuration_default_fe_block_settings() {
     'visibility' => '0',
   );
 
+  $export['copyright_block-copyright_block'] = array(
+    'cache' => 8,
+    'custom' => '0',
+    'delta' => 'copyright_block',
+    'module' => 'copyright_block',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'pixture_reloaded' => array(
+        'region' => 'footer',
+        'status' => '1',
+        'theme' => 'pixture_reloaded',
+        'weight' => '-17',
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => '0',
+      ),
+    ),
+    'title' => '<none>',
+    'visibility' => '0',
+  );
+
   $export['devel-execute_php'] = array(
     'cache' => -1,
     'custom' => '0',
@@ -776,10 +802,10 @@ function features_block_configuration_default_fe_block_settings() {
     'roles' => array(),
     'themes' => array(
       'pixture_reloaded' => array(
-        'region' => 'footer',
-        'status' => '1',
+        'region' => '',
+        'status' => 0,
         'theme' => 'pixture_reloaded',
-        'weight' => '10',
+        'weight' => '-18',
       ),
       'seven' => array(
         'region' => '',

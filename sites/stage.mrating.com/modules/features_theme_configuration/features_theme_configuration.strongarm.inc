@@ -13,6 +13,102 @@ function features_theme_configuration_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'color_pixture_reloaded_files';
+  $strongarm->value = array(
+    0 => 'public://color/pixture_reloaded-824afb88/bullet-round.png',
+    1 => 'public://color/pixture_reloaded-824afb88/bullet-sm-arrow-right.png',
+    2 => 'public://color/pixture_reloaded-824afb88/bullet-sm-arrow-down.png',
+    3 => 'public://color/pixture_reloaded-824afb88/button.gif',
+    4 => 'public://color/pixture_reloaded-824afb88/button-o.gif',
+    5 => 'D:\\wamp2\\www\\drupal7\\sites\\mrating.com\\files\\color\\pixture_reloaded-824afb88/header.png',
+    6 => 'D:\\wamp2\\www\\drupal7\\sites\\mrating.com\\files\\color\\pixture_reloaded-824afb88/header-tile.png',
+    7 => 'D:\\wamp2\\www\\drupal7\\sites\\mrating.com\\files\\color\\pixture_reloaded-824afb88/menu-tile.png',
+    8 => 'D:\\wamp2\\www\\drupal7\\sites\\mrating.com\\files\\color\\pixture_reloaded-824afb88/bg-footer.png',
+    9 => 'D:\\wamp2\\www\\drupal7\\sites\\mrating.com\\files\\color\\pixture_reloaded-824afb88/bg-footer-tile.png',
+    10 => 'D:\\wamp2\\www\\drupal7\\sites\\mrating.com\\files\\color\\pixture_reloaded-824afb88/bg-menu.png',
+    11 => 'D:\\wamp2\\www\\drupal7\\sites\\mrating.com\\files\\color\\pixture_reloaded-824afb88/bg-title.png',
+    12 => 'D:\\wamp2\\www\\drupal7\\sites\\mrating.com\\files\\color\\pixture_reloaded-824afb88/bg-wall.png',
+    13 => 'D:\\wamp2\\www\\drupal7\\sites\\mrating.com\\files\\color\\pixture_reloaded-824afb88/bg-bar-lite.png',
+    14 => 'D:\\wamp2\\www\\drupal7\\sites\\mrating.com\\files\\color\\pixture_reloaded-824afb88/bg-bar.png',
+    15 => 'D:\\wamp2\\www\\drupal7\\sites\\mrating.com\\files\\color\\pixture_reloaded-824afb88/bg-lbar-lite.png',
+    16 => 'D:\\wamp2\\www\\drupal7\\sites\\mrating.com\\files\\color\\pixture_reloaded-824afb88/bg-lbar.png',
+    17 => 'D:\\wamp2\\www\\drupal7\\sites\\mrating.com\\files\\color\\pixture_reloaded-824afb88/sf-hover-tile.png',
+    18 => 'public://color/pixture_reloaded-824afb88/colors.css',
+  );
+  $export['color_pixture_reloaded_files'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'color_pixture_reloaded_logo';
+  $strongarm->value = 'public://color/pixture_reloaded-824afb88/logo.png';
+  $export['color_pixture_reloaded_logo'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'color_pixture_reloaded_palette';
+  $strongarm->value = array(
+    'base' => '#cfb377',
+    'page' => '#ffffff',
+    'sitename' => '#feffff',
+    'slogan' => '#fefefe',
+    'header' => '#fdfdfd',
+    'mmenu' => '#fffffe',
+    'link' => '#90712c',
+    'top' => '#463406',
+    'bottom' => '#e6bd5c',
+    'ftop' => '#181818',
+    'fbottom' => '#343434',
+    'text' => '#555555',
+    'blockh' => '#d1b77e',
+    'blockht' => '#fffffc',
+    'blockbg' => '#f1e8d6',
+    'borders' => '#e9e9e9',
+    'sticky' => '#f7f7f7',
+  );
+  $export['color_pixture_reloaded_palette'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'color_pixture_reloaded_stylesheets';
+  $strongarm->value = array(
+    0 => 'public://color/pixture_reloaded-824afb88/colors.css',
+  );
+  $export['color_pixture_reloaded_stylesheets'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'pixture_reloaded_ltie9_layout_file_css';
+  $strongarm->value = 'pixture_reloaded.lt-ie9.layout.css';
+  $export['pixture_reloaded_ltie9_layout_file_css'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'pixture_reloaded_ltie9_layout_file_path';
+  $strongarm->value = 'public://at_css';
+  $export['pixture_reloaded_ltie9_layout_file_path'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'pixture_reloaded_responsive_layout_file_css';
+  $strongarm->value = 'pixture_reloaded.responsive.layout.css';
+  $export['pixture_reloaded_responsive_layout_file_css'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'pixture_reloaded_responsive_layout_file_path';
+  $strongarm->value = 'public://at_css';
+  $export['pixture_reloaded_responsive_layout_file_path'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'theme_pixture_reloaded_settings';
   $strongarm->value = array(
     'toggle_logo' => 1,
@@ -124,25 +220,25 @@ function features_theme_configuration_strongarm() {
     'menu_bar_position' => 'mbp-l',
     'menu_bullets' => 'mb-dd',
     'at__active_tab' => 'edit-bigscreen',
-    'scheme' => 'ash',
+    'scheme' => 'earthbrown',
     'palette' => array(
-      'base' => '#464849',
+      'base' => '#cfb377',
       'page' => '#ffffff',
       'sitename' => '#feffff',
       'slogan' => '#fefefe',
       'header' => '#fdfdfd',
       'mmenu' => '#fffffe',
-      'link' => '#2f416f',
-      'top' => '#2a2b2d',
-      'bottom' => '#5d6779',
+      'link' => '#90712c',
+      'top' => '#463406',
+      'bottom' => '#e6bd5c',
       'ftop' => '#181818',
       'fbottom' => '#343434',
       'text' => '#555555',
-      'blockh' => '#4f5152',
-      'blockht' => '#ffffff',
-      'blockbg' => '#c8c8c9',
-      'borders' => '#c8c8c9',
-      'sticky' => '#c8c8c9',
+      'blockh' => '#d1b77e',
+      'blockht' => '#fffffc',
+      'blockbg' => '#f1e8d6',
+      'borders' => '#e9e9e9',
+      'sticky' => '#f7f7f7',
     ),
     'theme' => 'pixture_reloaded',
     'info' => array(

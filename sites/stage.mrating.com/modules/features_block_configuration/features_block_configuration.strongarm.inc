@@ -13,8 +13,22 @@ function features_block_configuration_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'copyright_block_start_year';
+  $strongarm->value = '2013';
+  $export['copyright_block_start_year'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'copyright_block_text';
+  $strongarm->value = 'Copyright &copy; [site:name], [copyright_statement:dates].';
+  $export['copyright_block_text'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'superfish_arrow_1';
-  $strongarm->value = 0;
+  $strongarm->value = 1;
   $export['superfish_arrow_1'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -210,7 +224,7 @@ function features_block_configuration_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'superfish_slide_1';
-  $strongarm->value = 'none';
+  $strongarm->value = 'vertical';
   $export['superfish_slide_1'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -231,7 +245,7 @@ function features_block_configuration_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'superfish_style_1';
-  $strongarm->value = 'default';
+  $strongarm->value = 'space';
   $export['superfish_style_1'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -266,7 +280,7 @@ function features_block_configuration_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'superfish_type_1';
-  $strongarm->value = 'horizontal';
+  $strongarm->value = 'vertical';
   $export['superfish_type_1'] = $strongarm;
 
   $strongarm = new stdClass();
