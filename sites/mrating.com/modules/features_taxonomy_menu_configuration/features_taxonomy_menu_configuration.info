@@ -1,10 +1,12 @@
 name = Features Taxonomy Menu Configuration
 core = 7.x
 package = Features
+php = 5.2.4
 version = 7.x-1.0
 project = features_taxonomy_menu_configuration
 dependencies[] = ctools
 dependencies[] = strongarm
+dependencies[] = taxonomy_menu
 features[ctools][] = strongarm:strongarm:1
 features[features_api][] = api:1
 features[variable][] = taxonomy_menu_display_descendants_category
