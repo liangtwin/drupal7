@@ -245,7 +245,7 @@ function features_block_configuration_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'superfish_style_1';
-  $strongarm->value = 'space';
+  $strongarm->value = 'coffee';
   $export['superfish_style_1'] = $strongarm;
 
   $strongarm = new stdClass();

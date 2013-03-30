@@ -580,7 +580,7 @@ function features_block_configuration_default_fe_block_settings() {
         'weight' => '0',
       ),
     ),
-    'title' => '<none>',
+    'title' => '',
     'visibility' => '0',
   );
 
@@ -932,8 +932,8 @@ function features_block_configuration_default_fe_block_settings() {
     'roles' => array(),
     'themes' => array(
       'pixture_reloaded' => array(
-        'region' => '',
-        'status' => 0,
+        'region' => 'sidebar_first',
+        'status' => '1',
         'theme' => 'pixture_reloaded',
         'weight' => '0',
       ),
