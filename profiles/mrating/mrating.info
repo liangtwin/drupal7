@@ -47,6 +47,7 @@ dependencies[] = fe_block
 dependencies[] = filter_perms
 dependencies[] = fivestar
 dependencies[] = googleanalytics
+dependencies[] = jquery_update
 dependencies[] = libraries
 dependencies[] = maillog
 dependencies[] = masquerade

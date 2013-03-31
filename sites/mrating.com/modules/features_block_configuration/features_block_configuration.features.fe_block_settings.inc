@@ -490,7 +490,7 @@ function features_block_configuration_default_fe_block_settings() {
     'roles' => array(),
     'themes' => array(
       'pixture_reloaded' => array(
-        'region' => 'sidebar_first',
+        'region' => 'highlight',
         'status' => '1',
         'theme' => 'pixture_reloaded',
         'weight' => '-1',

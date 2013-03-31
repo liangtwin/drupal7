@@ -10,6 +10,7 @@ dependencies[] = features
 dependencies[] = features_tax_category_exportation
 dependencies[] = fivestar
 dependencies[] = node
+dependencies[] = options
 dependencies[] = strongarm
 dependencies[] = taxonomy
 dependencies[] = text
