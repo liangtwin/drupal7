@@ -210,21 +210,7 @@
  *   );
  * @endcode
  */
-$databases = array (
-  'default' => 
-  array (
-    'default' => 
-    array (
-      'database' => 'mrating_stage',
-      'username' => 'mrating',
-      'password' => 'mr@tingdb',
-      'host' => 'localhost',
-      'port' => '',
-      'driver' => 'mysql',
-      'prefix' => '',
-    ),
-  ),
-);
+$databases = array();
 
 /**
  * Access control for update.php script.
@@ -256,7 +242,7 @@ $update_free_access = FALSE;
  *   $drupal_hash_salt = file_get_contents('/home/example/salt.txt');
  *
  */
-$drupal_hash_salt = 'yLeRIBS7p2t-UyMM0ztGhiceydMZ9KEsq0icWu9X3TM';
+$drupal_hash_salt = '';
 
 /**
  * Base URL (optional).
@@ -565,3 +551,18 @@ $conf['404_fast_html'] = '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
  * Remove the leading hash signs to disable.
  */
 # $conf['allow_authorize_operations'] = FALSE;
+
+if (!isset($_SERVER['PHP_AUTH_USER'])) { 
+  header('WWW-Authenticate: Basic realm="My Private Stuff"'); 
+  header('HTTP/1.0 401 Unauthorized'); 
+  echo 'Authorization Required.'; 
+  exit; 
+} 
+else if (isset($_SERVER['PHP_AUTH_USER'])) { 
+  if (($_SERVER['PHP_AUTH_USER'] != "mrating") || ($_SERVER['PHP_AUTH_PW'] != "Mrating2323")) { 
+    header('WWW-Authenticate: Basic realm="My Private Stuff"'); 
+    header('HTTP/1.0 401 Unauthorized'); 
+    echo 'Authorization Required.';
+    exit; 
+  } 
+} 
