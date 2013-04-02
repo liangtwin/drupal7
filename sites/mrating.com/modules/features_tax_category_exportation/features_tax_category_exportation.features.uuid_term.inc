@@ -11,6 +11,18 @@ function features_tax_category_exportation_uuid_features_default_terms() {
   $terms = array();
 
   $terms[] = array(
+    'name' => '润唇膏',
+    'description' => NULL,
+    'format' => NULL,
+    'weight' => '0',
+    'uuid' => '007dd2cf-95c3-471f-b6e0-f2afac43056d',
+    'vocabulary_machine_name' => 'category',
+    'metatags' => array(),
+    'parent' => array(
+      0 => '843f8b5a-8e1a-4c12-92ae-bf9a9f5dfea4',
+    ),
+  );
+  $terms[] = array(
     'name' => '排卵试纸',
     'description' => NULL,
     'format' => NULL,
@@ -20,6 +32,18 @@ function features_tax_category_exportation_uuid_features_default_terms() {
     'metatags' => array(),
     'parent' => array(
       0 => '8f324631-65ae-43df-abfd-e9c60e0c3db6',
+    ),
+  );
+  $terms[] = array(
+    'name' => 'T区',
+    'description' => NULL,
+    'format' => NULL,
+    'weight' => '0',
+    'uuid' => '026a7722-9a4d-487f-928c-c66b0b2d3e15',
+    'vocabulary_machine_name' => 'category',
+    'metatags' => array(),
+    'parent' => array(
+      0 => '843f8b5a-8e1a-4c12-92ae-bf9a9f5dfea4',
     ),
   );
   $terms[] = array(
@@ -188,6 +212,18 @@ function features_tax_category_exportation_uuid_features_default_terms() {
     ),
   );
   $terms[] = array(
+    'name' => '青年旅舍',
+    'description' => NULL,
+    'format' => NULL,
+    'weight' => '0',
+    'uuid' => '0e6b2ed0-14fb-4688-a7e7-eb87bc8a39cf',
+    'vocabulary_machine_name' => 'category',
+    'metatags' => array(),
+    'parent' => array(
+      0 => '681e4b39-515c-486a-b5b0-d8b68f77c08b',
+    ),
+  );
+  $terms[] = array(
     'name' => '家具建材',
     'description' => '',
     'format' => 'filtered_html',
@@ -206,6 +242,18 @@ function features_tax_category_exportation_uuid_features_default_terms() {
     'metatags' => array(),
     'parent' => array(
       0 => '4f2fb4fd-152d-4217-8e70-ac054a72a2ac',
+    ),
+  );
+  $terms[] = array(
+    'name' => '老花眼镜',
+    'description' => NULL,
+    'format' => NULL,
+    'weight' => '0',
+    'uuid' => '102512c5-f68c-45b6-81c2-3129d58ae3f0',
+    'vocabulary_machine_name' => 'category',
+    'metatags' => array(),
+    'parent' => array(
+      0 => '5fdaa290-5d4b-41d6-853b-173e45bfb61d',
     ),
   );
   $terms[] = array(
@@ -293,6 +341,18 @@ function features_tax_category_exportation_uuid_features_default_terms() {
     ),
   );
   $terms[] = array(
+    'name' => '光能表',
+    'description' => NULL,
+    'format' => NULL,
+    'weight' => '0',
+    'uuid' => '19ef2d95-eacd-4f52-827b-dcd5265c94da',
+    'vocabulary_machine_name' => 'category',
+    'metatags' => array(),
+    'parent' => array(
+      0 => '84340ebb-6b26-4e63-8242-620519555722',
+    ),
+  );
+  $terms[] = array(
     'name' => '肠胃用药',
     'description' => NULL,
     'format' => NULL,
@@ -326,6 +386,30 @@ function features_tax_category_exportation_uuid_features_default_terms() {
     'metatags' => array(),
   );
   $terms[] = array(
+    'name' => '春秋被',
+    'description' => NULL,
+    'format' => NULL,
+    'weight' => '0',
+    'uuid' => '20a964d6-3cc2-400d-87f1-6c3ae2f2ad89',
+    'vocabulary_machine_name' => 'category',
+    'metatags' => array(),
+    'parent' => array(
+      0 => '3ff4840e-daa3-4f61-a185-bc136650ba74',
+    ),
+  );
+  $terms[] = array(
+    'name' => '石英表',
+    'description' => NULL,
+    'format' => NULL,
+    'weight' => '0',
+    'uuid' => '2168c8ff-abe1-464d-bd70-8f3e7f6f245e',
+    'vocabulary_machine_name' => 'category',
+    'metatags' => array(),
+    'parent' => array(
+      0 => '84340ebb-6b26-4e63-8242-620519555722',
+    ),
+  );
+  $terms[] = array(
     'name' => '戒烟用药',
     'description' => NULL,
     'format' => NULL,
@@ -347,6 +431,18 @@ function features_tax_category_exportation_uuid_features_default_terms() {
     'metatags' => array(),
     'parent' => array(
       0 => '516bf28a-4462-4d24-83dd-d0378603cd0d',
+    ),
+  );
+  $terms[] = array(
+    'name' => '旅游网站',
+    'description' => NULL,
+    'format' => NULL,
+    'weight' => '0',
+    'uuid' => '22885837-f001-47de-a951-fafd1fb407a8',
+    'vocabulary_machine_name' => 'category',
+    'metatags' => array(),
+    'parent' => array(
+      0 => '7ee5ae51-26ac-4c62-af63-fccee2304c91',
     ),
   );
   $terms[] = array(
@@ -383,6 +479,18 @@ function features_tax_category_exportation_uuid_features_default_terms() {
     'metatags' => array(),
     'parent' => array(
       0 => '516bf28a-4462-4d24-83dd-d0378603cd0d',
+    ),
+  );
+  $terms[] = array(
+    'name' => '太阳眼镜',
+    'description' => NULL,
+    'format' => NULL,
+    'weight' => '0',
+    'uuid' => '2b5f79b6-2812-4257-a800-8235466b9f6a',
+    'vocabulary_machine_name' => 'category',
+    'metatags' => array(),
+    'parent' => array(
+      0 => '5fdaa290-5d4b-41d6-853b-173e45bfb61d',
     ),
   );
   $terms[] = array(
@@ -453,6 +561,18 @@ function features_tax_category_exportation_uuid_features_default_terms() {
     'uuid' => '2fa0595c-8a93-4464-8909-ef83c5e7c1a1',
     'vocabulary_machine_name' => 'category',
     'metatags' => array(),
+  );
+  $terms[] = array(
+    'name' => '被套',
+    'description' => NULL,
+    'format' => NULL,
+    'weight' => '0',
+    'uuid' => '30041cf6-058c-47bd-a13c-c66707185b77',
+    'vocabulary_machine_name' => 'category',
+    'metatags' => array(),
+    'parent' => array(
+      0 => '3ff4840e-daa3-4f61-a185-bc136650ba74',
+    ),
   );
   $terms[] = array(
     'name' => '地漏',
@@ -599,6 +719,42 @@ function features_tax_category_exportation_uuid_features_default_terms() {
     ),
   );
   $terms[] = array(
+    'name' => '机械表',
+    'description' => NULL,
+    'format' => NULL,
+    'weight' => '0',
+    'uuid' => '3ddb202e-8d1a-4fc2-846c-fdaeb49f3f39',
+    'vocabulary_machine_name' => 'category',
+    'metatags' => array(),
+    'parent' => array(
+      0 => '84340ebb-6b26-4e63-8242-620519555722',
+    ),
+  );
+  $terms[] = array(
+    'name' => '床单',
+    'description' => NULL,
+    'format' => NULL,
+    'weight' => '0',
+    'uuid' => '3e6d8041-0072-47b4-b47f-64f94185e70c',
+    'vocabulary_machine_name' => 'category',
+    'metatags' => array(),
+    'parent' => array(
+      0 => '3ff4840e-daa3-4f61-a185-bc136650ba74',
+    ),
+  );
+  $terms[] = array(
+    'name' => '精品家纺',
+    'description' => NULL,
+    'format' => NULL,
+    'weight' => '0',
+    'uuid' => '3ff4840e-daa3-4f61-a185-bc136650ba74',
+    'vocabulary_machine_name' => 'category',
+    'metatags' => array(),
+    'parent' => array(
+      0 => 'daae468b-0138-4c1e-ae15-80cd8e6a6392',
+    ),
+  );
+  $terms[] = array(
     'name' => '平板电视',
     'description' => '',
     'format' => 'filtered_html',
@@ -608,6 +764,18 @@ function features_tax_category_exportation_uuid_features_default_terms() {
     'metatags' => array(),
     'parent' => array(
       0 => 'f4415198-7ee5-4105-8944-329a1a000524',
+    ),
+  );
+  $terms[] = array(
+    'name' => '四星级酒店',
+    'description' => NULL,
+    'format' => NULL,
+    'weight' => '0',
+    'uuid' => '41c23372-52f2-47d9-b01b-ee625c9cea37',
+    'vocabulary_machine_name' => 'category',
+    'metatags' => array(),
+    'parent' => array(
+      0 => '681e4b39-515c-486a-b5b0-d8b68f77c08b',
     ),
   );
   $terms[] = array(
@@ -647,6 +815,30 @@ function features_tax_category_exportation_uuid_features_default_terms() {
     ),
   );
   $terms[] = array(
+    'name' => '墙纸',
+    'description' => NULL,
+    'format' => NULL,
+    'weight' => '0',
+    'uuid' => '439c3d26-f061-495d-abe7-7d2f081144a5',
+    'vocabulary_machine_name' => 'category',
+    'metatags' => array(),
+    'parent' => array(
+      0 => '0e7e7f22-560e-4634-93c2-5d99e2ef8631',
+    ),
+  );
+  $terms[] = array(
+    'name' => '五星级酒店',
+    'description' => NULL,
+    'format' => NULL,
+    'weight' => '0',
+    'uuid' => '45eca169-af4b-418a-84fe-5cc173650175',
+    'vocabulary_machine_name' => 'category',
+    'metatags' => array(),
+    'parent' => array(
+      0 => '681e4b39-515c-486a-b5b0-d8b68f77c08b',
+    ),
+  );
+  $terms[] = array(
     'name' => '肝胆用药',
     'description' => NULL,
     'format' => NULL,
@@ -659,6 +851,18 @@ function features_tax_category_exportation_uuid_features_default_terms() {
     ),
   );
   $terms[] = array(
+    'name' => '租车公司',
+    'description' => NULL,
+    'format' => NULL,
+    'weight' => '0',
+    'uuid' => '47283ab4-c586-4d31-97a2-0c68f8549996',
+    'vocabulary_machine_name' => 'category',
+    'metatags' => array(),
+    'parent' => array(
+      0 => '7ee5ae51-26ac-4c62-af63-fccee2304c91',
+    ),
+  );
+  $terms[] = array(
     'name' => '补益安神',
     'description' => NULL,
     'format' => NULL,
@@ -668,6 +872,18 @@ function features_tax_category_exportation_uuid_features_default_terms() {
     'metatags' => array(),
     'parent' => array(
       0 => 'b731e9ad-b8e3-43c8-aa75-ebff4b05f4d1',
+    ),
+  );
+  $terms[] = array(
+    'name' => '蚕丝被',
+    'description' => NULL,
+    'format' => NULL,
+    'weight' => '0',
+    'uuid' => '49b6cd16-55e0-463b-a310-f5334fed78dd',
+    'vocabulary_machine_name' => 'category',
+    'metatags' => array(),
+    'parent' => array(
+      0 => '3ff4840e-daa3-4f61-a185-bc136650ba74',
     ),
   );
   $terms[] = array(
@@ -764,6 +980,18 @@ function features_tax_category_exportation_uuid_features_default_terms() {
     ),
   );
   $terms[] = array(
+    'name' => '腰靠垫',
+    'description' => NULL,
+    'format' => NULL,
+    'weight' => '0',
+    'uuid' => '5ac92dfa-be7e-4537-8ae1-27adad6d9dd0',
+    'vocabulary_machine_name' => 'category',
+    'metatags' => array(),
+    'parent' => array(
+      0 => '3ff4840e-daa3-4f61-a185-bc136650ba74',
+    ),
+  );
+  $terms[] = array(
     'name' => '铝钛合金',
     'description' => NULL,
     'format' => NULL,
@@ -773,6 +1001,18 @@ function features_tax_category_exportation_uuid_features_default_terms() {
     'metatags' => array(),
     'parent' => array(
       0 => 'ea13db65-9143-43bd-86ee-43d5f6fdc88d',
+    ),
+  );
+  $terms[] = array(
+    'name' => '电子表',
+    'description' => NULL,
+    'format' => NULL,
+    'weight' => '0',
+    'uuid' => '5bd579cb-01a5-4e16-a7c3-52c6e12216fb',
+    'vocabulary_machine_name' => 'category',
+    'metatags' => array(),
+    'parent' => array(
+      0 => '84340ebb-6b26-4e63-8242-620519555722',
     ),
   );
   $terms[] = array(
@@ -848,6 +1088,18 @@ function features_tax_category_exportation_uuid_features_default_terms() {
     ),
   );
   $terms[] = array(
+    'name' => '眼镜',
+    'description' => NULL,
+    'format' => NULL,
+    'weight' => '0',
+    'uuid' => '5fdaa290-5d4b-41d6-853b-173e45bfb61d',
+    'vocabulary_machine_name' => 'category',
+    'metatags' => array(),
+    'parent' => array(
+      0 => '88492dac-975b-44e2-9485-015fff1bb3ee',
+    ),
+  );
+  $terms[] = array(
     'name' => '集成吊顶',
     'description' => NULL,
     'format' => NULL,
@@ -893,6 +1145,42 @@ function features_tax_category_exportation_uuid_features_default_terms() {
     'metatags' => array(),
     'parent' => array(
       0 => '0d43173f-8a4e-44e4-95bf-41bb33c6aeaf',
+    ),
+  );
+  $terms[] = array(
+    'name' => '婚庆套件',
+    'description' => NULL,
+    'format' => NULL,
+    'weight' => '0',
+    'uuid' => '6487c6a1-5bc4-4f0a-8ea2-6f0c8540e7e9',
+    'vocabulary_machine_name' => 'category',
+    'metatags' => array(),
+    'parent' => array(
+      0 => '3ff4840e-daa3-4f61-a185-bc136650ba74',
+    ),
+  );
+  $terms[] = array(
+    'name' => '精品酒店',
+    'description' => NULL,
+    'format' => NULL,
+    'weight' => '0',
+    'uuid' => '652fde64-8155-41fe-8014-60cfa0b92f69',
+    'vocabulary_machine_name' => 'category',
+    'metatags' => array(),
+    'parent' => array(
+      0 => '681e4b39-515c-486a-b5b0-d8b68f77c08b',
+    ),
+  );
+  $terms[] = array(
+    'name' => '旅游公司',
+    'description' => NULL,
+    'format' => NULL,
+    'weight' => '0',
+    'uuid' => '68075345-5f5e-43f9-835a-28f8ea5d2062',
+    'vocabulary_machine_name' => 'category',
+    'metatags' => array(),
+    'parent' => array(
+      0 => '7ee5ae51-26ac-4c62-af63-fccee2304c91',
     ),
   );
   $terms[] = array(
@@ -1010,6 +1298,18 @@ function features_tax_category_exportation_uuid_features_default_terms() {
     ),
   );
   $terms[] = array(
+    'name' => '毛浴巾',
+    'description' => NULL,
+    'format' => NULL,
+    'weight' => '0',
+    'uuid' => '71c9ee44-fa90-48ce-b9e8-7362b3f052e6',
+    'vocabulary_machine_name' => 'category',
+    'metatags' => array(),
+    'parent' => array(
+      0 => '3ff4840e-daa3-4f61-a185-bc136650ba74',
+    ),
+  );
+  $terms[] = array(
     'name' => '大豆异黄酮',
     'description' => NULL,
     'format' => NULL,
@@ -1082,6 +1382,18 @@ function features_tax_category_exportation_uuid_features_default_terms() {
     ),
   );
   $terms[] = array(
+    'name' => '签证公司',
+    'description' => NULL,
+    'format' => NULL,
+    'weight' => '0',
+    'uuid' => '789a14d2-0051-4c33-88a6-c99aa0b366c7',
+    'vocabulary_machine_name' => 'category',
+    'metatags' => array(),
+    'parent' => array(
+      0 => '7ee5ae51-26ac-4c62-af63-fccee2304c91',
+    ),
+  );
+  $terms[] = array(
     'name' => '牛奶乳品',
     'description' => '',
     'format' => 'filtered_html',
@@ -1145,6 +1457,18 @@ function features_tax_category_exportation_uuid_features_default_terms() {
     ),
   );
   $terms[] = array(
+    'name' => '手表',
+    'description' => NULL,
+    'format' => NULL,
+    'weight' => '0',
+    'uuid' => '84340ebb-6b26-4e63-8242-620519555722',
+    'vocabulary_machine_name' => 'category',
+    'metatags' => array(),
+    'parent' => array(
+      0 => '88492dac-975b-44e2-9485-015fff1bb3ee',
+    ),
+  );
+  $terms[] = array(
     'name' => '面部护肤',
     'description' => '',
     'format' => 'filtered_html',
@@ -1154,6 +1478,18 @@ function features_tax_category_exportation_uuid_features_default_terms() {
     'metatags' => array(),
     'parent' => array(
       0 => '03a29e1e-6962-4eea-9ab5-f702f7563776',
+    ),
+  );
+  $terms[] = array(
+    'name' => '记忆枕',
+    'description' => NULL,
+    'format' => NULL,
+    'weight' => '0',
+    'uuid' => '844bfbc8-d0bf-4efc-b705-7dd77d3a813c',
+    'vocabulary_machine_name' => 'category',
+    'metatags' => array(),
+    'parent' => array(
+      0 => '3ff4840e-daa3-4f61-a185-bc136650ba74',
     ),
   );
   $terms[] = array(
@@ -1274,6 +1610,18 @@ function features_tax_category_exportation_uuid_features_default_terms() {
     ),
   );
   $terms[] = array(
+    'name' => '居家拖鞋',
+    'description' => NULL,
+    'format' => NULL,
+    'weight' => '0',
+    'uuid' => '8d6ba2c3-4b4c-4bec-bcc5-4f63d59ed70c',
+    'vocabulary_machine_name' => 'category',
+    'metatags' => array(),
+    'parent' => array(
+      0 => '3ff4840e-daa3-4f61-a185-bc136650ba74',
+    ),
+  );
+  $terms[] = array(
     'name' => '牛奶',
     'description' => '',
     'format' => 'filtered_html',
@@ -1343,6 +1691,18 @@ function features_tax_category_exportation_uuid_features_default_terms() {
     'metatags' => array(),
     'parent' => array(
       0 => '6a7a681e-2233-4e98-8952-20f3d1ad06cc',
+    ),
+  );
+  $terms[] = array(
+    'name' => '凉席',
+    'description' => NULL,
+    'format' => NULL,
+    'weight' => '0',
+    'uuid' => '96d1e502-26f9-495e-acb4-932b989d1ec5',
+    'vocabulary_machine_name' => 'category',
+    'metatags' => array(),
+    'parent' => array(
+      0 => '3ff4840e-daa3-4f61-a185-bc136650ba74',
     ),
   );
   $terms[] = array(
@@ -1430,6 +1790,18 @@ function features_tax_category_exportation_uuid_features_default_terms() {
     ),
   );
   $terms[] = array(
+    'name' => '乳液',
+    'description' => NULL,
+    'format' => NULL,
+    'weight' => '0',
+    'uuid' => '9c96111d-9deb-4519-beba-c69c3ea79a23',
+    'vocabulary_machine_name' => 'category',
+    'metatags' => array(),
+    'parent' => array(
+      0 => '843f8b5a-8e1a-4c12-92ae-bf9a9f5dfea4',
+    ),
+  );
+  $terms[] = array(
     'name' => '钻石珠宝',
     'description' => '',
     'format' => 'filtered_html',
@@ -1439,6 +1811,18 @@ function features_tax_category_exportation_uuid_features_default_terms() {
     'metatags' => array(),
     'parent' => array(
       0 => 'abd880c4-4e16-4d0d-ae67-94b7a36c60c2',
+    ),
+  );
+  $terms[] = array(
+    'name' => '花草枕',
+    'description' => NULL,
+    'format' => NULL,
+    'weight' => '0',
+    'uuid' => '9d65db27-1393-4a7d-bd8a-b9d7a0e443ec',
+    'vocabulary_machine_name' => 'category',
+    'metatags' => array(),
+    'parent' => array(
+      0 => '3ff4840e-daa3-4f61-a185-bc136650ba74',
     ),
   );
   $terms[] = array(
@@ -1502,6 +1886,30 @@ function features_tax_category_exportation_uuid_features_default_terms() {
     ),
   );
   $terms[] = array(
+    'name' => '3D眼镜',
+    'description' => NULL,
+    'format' => NULL,
+    'weight' => '0',
+    'uuid' => 'a1f0d234-9d65-476c-b06b-7e019fe34cda',
+    'vocabulary_machine_name' => 'category',
+    'metatags' => array(),
+    'parent' => array(
+      0 => '5fdaa290-5d4b-41d6-853b-173e45bfb61d',
+    ),
+  );
+  $terms[] = array(
+    'name' => '卸妆',
+    'description' => NULL,
+    'format' => NULL,
+    'weight' => '0',
+    'uuid' => 'a35ec795-d625-49fe-a6f4-f1dec1bb0862',
+    'vocabulary_machine_name' => 'category',
+    'metatags' => array(),
+    'parent' => array(
+      0 => '843f8b5a-8e1a-4c12-92ae-bf9a9f5dfea4',
+    ),
+  );
+  $terms[] = array(
     'name' => '传统滋补',
     'description' => '',
     'format' => 'filtered_html',
@@ -1511,6 +1919,18 @@ function features_tax_category_exportation_uuid_features_default_terms() {
     'metatags' => array(),
     'parent' => array(
       0 => 'fcc2a1a3-6a2e-4f02-9b35-6c0c6a43752a',
+    ),
+  );
+  $terms[] = array(
+    'name' => '春秋毯',
+    'description' => NULL,
+    'format' => NULL,
+    'weight' => '0',
+    'uuid' => 'a416e2e5-c879-4b9c-a63a-4464c86ca983',
+    'vocabulary_machine_name' => 'category',
+    'metatags' => array(),
+    'parent' => array(
+      0 => '3ff4840e-daa3-4f61-a185-bc136650ba74',
     ),
   );
   $terms[] = array(
@@ -1535,6 +1955,18 @@ function features_tax_category_exportation_uuid_features_default_terms() {
     'metatags' => array(),
     'parent' => array(
       0 => '8b8bf5f2-11f3-4410-99ed-87c52809bc83',
+    ),
+  );
+  $terms[] = array(
+    'name' => '三星级酒店',
+    'description' => NULL,
+    'format' => NULL,
+    'weight' => '0',
+    'uuid' => 'a73acc4d-584e-44d8-82e9-eb392c17860b',
+    'vocabulary_machine_name' => 'category',
+    'metatags' => array(),
+    'parent' => array(
+      0 => '681e4b39-515c-486a-b5b0-d8b68f77c08b',
     ),
   );
   $terms[] = array(
@@ -1598,6 +2030,18 @@ function features_tax_category_exportation_uuid_features_default_terms() {
     ),
   );
   $terms[] = array(
+    'name' => '近视眼镜',
+    'description' => NULL,
+    'format' => NULL,
+    'weight' => '0',
+    'uuid' => 'ab66cd8c-e29e-4016-a367-cd2a6d0791fc',
+    'vocabulary_machine_name' => 'category',
+    'metatags' => array(),
+    'parent' => array(
+      0 => '5fdaa290-5d4b-41d6-853b-173e45bfb61d',
+    ),
+  );
+  $terms[] = array(
     'name' => '铝扣板',
     'description' => NULL,
     'format' => NULL,
@@ -1617,6 +2061,18 @@ function features_tax_category_exportation_uuid_features_default_terms() {
     'uuid' => 'abd880c4-4e16-4d0d-ae67-94b7a36c60c2',
     'vocabulary_machine_name' => 'category',
     'metatags' => array(),
+  );
+  $terms[] = array(
+    'name' => '电脑护目镜',
+    'description' => NULL,
+    'format' => NULL,
+    'weight' => '0',
+    'uuid' => 'ac76d5d8-6f91-4e9b-935f-52be56ba1ac7',
+    'vocabulary_machine_name' => 'category',
+    'metatags' => array(),
+    'parent' => array(
+      0 => '5fdaa290-5d4b-41d6-853b-173e45bfb61d',
+    ),
   );
   $terms[] = array(
     'name' => '实木地板',
@@ -1640,6 +2096,18 @@ function features_tax_category_exportation_uuid_features_default_terms() {
     'metatags' => array(),
     'parent' => array(
       0 => 'b731e9ad-b8e3-43c8-aa75-ebff4b05f4d1',
+    ),
+  );
+  $terms[] = array(
+    'name' => '公寓式酒店',
+    'description' => NULL,
+    'format' => NULL,
+    'weight' => '0',
+    'uuid' => 'af77f335-3764-41d9-8593-ee39653fcc4b',
+    'vocabulary_machine_name' => 'category',
+    'metatags' => array(),
+    'parent' => array(
+      0 => '681e4b39-515c-486a-b5b0-d8b68f77c08b',
     ),
   );
   $terms[] = array(
@@ -1712,6 +2180,18 @@ function features_tax_category_exportation_uuid_features_default_terms() {
     'metatags' => array(),
     'parent' => array(
       0 => '715d6f25-38bf-4dd5-a71f-7c41bea32504',
+    ),
+  );
+  $terms[] = array(
+    'name' => '全棉四件套',
+    'description' => NULL,
+    'format' => NULL,
+    'weight' => '0',
+    'uuid' => 'b215672b-2fb9-4802-a737-d8fe0505a773',
+    'vocabulary_machine_name' => 'category',
+    'metatags' => array(),
+    'parent' => array(
+      0 => '3ff4840e-daa3-4f61-a185-bc136650ba74',
     ),
   );
   $terms[] = array(
@@ -1883,6 +2363,18 @@ function features_tax_category_exportation_uuid_features_default_terms() {
     ),
   );
   $terms[] = array(
+    'name' => '面膜',
+    'description' => NULL,
+    'format' => NULL,
+    'weight' => '0',
+    'uuid' => 'c738bbcd-cdb5-4515-ac30-735f89f37244',
+    'vocabulary_machine_name' => 'category',
+    'metatags' => array(),
+    'parent' => array(
+      0 => '843f8b5a-8e1a-4c12-92ae-bf9a9f5dfea4',
+    ),
+  );
+  $terms[] = array(
     'name' => '釉面砖',
     'description' => NULL,
     'format' => NULL,
@@ -1892,6 +2384,18 @@ function features_tax_category_exportation_uuid_features_default_terms() {
     'metatags' => array(),
     'parent' => array(
       0 => '42ff58af-2668-42f9-9a51-62afe10bf3b9',
+    ),
+  );
+  $terms[] = array(
+    'name' => '枕套',
+    'description' => NULL,
+    'format' => NULL,
+    'weight' => '0',
+    'uuid' => 'c81d39fd-570a-4b8c-8cad-58309d2b801b',
+    'vocabulary_machine_name' => 'category',
+    'metatags' => array(),
+    'parent' => array(
+      0 => '3ff4840e-daa3-4f61-a185-bc136650ba74',
     ),
   );
   $terms[] = array(
@@ -1940,6 +2444,18 @@ function features_tax_category_exportation_uuid_features_default_terms() {
     ),
   );
   $terms[] = array(
+    'name' => '眼部保养',
+    'description' => NULL,
+    'format' => NULL,
+    'weight' => '0',
+    'uuid' => 'cd8ec424-088d-4d5c-a50a-3bacc134af32',
+    'vocabulary_machine_name' => 'category',
+    'metatags' => array(),
+    'parent' => array(
+      0 => '843f8b5a-8e1a-4c12-92ae-bf9a9f5dfea4',
+    ),
+  );
+  $terms[] = array(
     'name' => '净水器',
     'description' => NULL,
     'format' => NULL,
@@ -1949,6 +2465,30 @@ function features_tax_category_exportation_uuid_features_default_terms() {
     'metatags' => array(),
     'parent' => array(
       0 => '0e7e7f22-560e-4634-93c2-5d99e2ef8631',
+    ),
+  );
+  $terms[] = array(
+    'name' => '经济型酒店',
+    'description' => NULL,
+    'format' => NULL,
+    'weight' => '0',
+    'uuid' => 'ceb8926d-a20b-416c-bb9e-6f280d52f77a',
+    'vocabulary_machine_name' => 'category',
+    'metatags' => array(),
+    'parent' => array(
+      0 => '681e4b39-515c-486a-b5b0-d8b68f77c08b',
+    ),
+  );
+  $terms[] = array(
+    'name' => '精华',
+    'description' => NULL,
+    'format' => NULL,
+    'weight' => '0',
+    'uuid' => 'cf793ddd-ebeb-469a-999a-144a63479cd7',
+    'vocabulary_machine_name' => 'category',
+    'metatags' => array(),
+    'parent' => array(
+      0 => '843f8b5a-8e1a-4c12-92ae-bf9a9f5dfea4',
     ),
   );
   $terms[] = array(
@@ -1997,6 +2537,18 @@ function features_tax_category_exportation_uuid_features_default_terms() {
     'metatags' => array(),
     'parent' => array(
       0 => '774748e4-a508-4369-b741-510f9ec70340',
+    ),
+  );
+  $terms[] = array(
+    'name' => '床垫',
+    'description' => NULL,
+    'format' => NULL,
+    'weight' => '0',
+    'uuid' => 'd3173f1f-4971-438f-a239-012c57ff56d6',
+    'vocabulary_machine_name' => 'category',
+    'metatags' => array(),
+    'parent' => array(
+      0 => '3ff4840e-daa3-4f61-a185-bc136650ba74',
     ),
   );
   $terms[] = array(
@@ -2090,6 +2642,18 @@ function features_tax_category_exportation_uuid_features_default_terms() {
     'metatags' => array(),
     'parent' => array(
       0 => '774748e4-a508-4369-b741-510f9ec70340',
+    ),
+  );
+  $terms[] = array(
+    'name' => '面霜',
+    'description' => NULL,
+    'format' => NULL,
+    'weight' => '0',
+    'uuid' => 'dd885001-d27c-4304-83e1-c4e206749d7b',
+    'vocabulary_machine_name' => 'category',
+    'metatags' => array(),
+    'parent' => array(
+      0 => '843f8b5a-8e1a-4c12-92ae-bf9a9f5dfea4',
     ),
   );
   $terms[] = array(
@@ -2231,6 +2795,18 @@ function features_tax_category_exportation_uuid_features_default_terms() {
     'metatags' => array(),
     'parent' => array(
       0 => '4f2fb4fd-152d-4217-8e70-ac054a72a2ac',
+    ),
+  );
+  $terms[] = array(
+    'name' => '防晒',
+    'description' => NULL,
+    'format' => NULL,
+    'weight' => '0',
+    'uuid' => 'e6c7b889-3662-4576-b445-48748f98c3b1',
+    'vocabulary_machine_name' => 'category',
+    'metatags' => array(),
+    'parent' => array(
+      0 => '843f8b5a-8e1a-4c12-92ae-bf9a9f5dfea4',
     ),
   );
   $terms[] = array(
@@ -2402,6 +2978,18 @@ function features_tax_category_exportation_uuid_features_default_terms() {
     ),
   );
   $terms[] = array(
+    'name' => '夜视镜',
+    'description' => NULL,
+    'format' => NULL,
+    'weight' => '0',
+    'uuid' => 'f0616777-8456-4e66-8768-17b38f4636e3',
+    'vocabulary_machine_name' => 'category',
+    'metatags' => array(),
+    'parent' => array(
+      0 => '5fdaa290-5d4b-41d6-853b-173e45bfb61d',
+    ),
+  );
+  $terms[] = array(
     'name' => '电话线',
     'description' => NULL,
     'format' => NULL,
@@ -2459,6 +3047,18 @@ function features_tax_category_exportation_uuid_features_default_terms() {
     'metatags' => array(),
   );
   $terms[] = array(
+    'name' => '爽肤水',
+    'description' => NULL,
+    'format' => NULL,
+    'weight' => '0',
+    'uuid' => 'f3ff72d3-459b-42bf-b3a6-cd9e7f9b6665',
+    'vocabulary_machine_name' => 'category',
+    'metatags' => array(),
+    'parent' => array(
+      0 => '843f8b5a-8e1a-4c12-92ae-bf9a9f5dfea4',
+    ),
+  );
+  $terms[] = array(
     'name' => '大家电',
     'description' => '',
     'format' => 'filtered_html',
@@ -2492,6 +3092,18 @@ function features_tax_category_exportation_uuid_features_default_terms() {
     'metatags' => array(),
     'parent' => array(
       0 => 'fd8e8fc4-6edc-4ce9-b282-b71b86bb8404',
+    ),
+  );
+  $terms[] = array(
+    'name' => '度假村',
+    'description' => NULL,
+    'format' => NULL,
+    'weight' => '0',
+    'uuid' => 'f759de83-6d0f-4c1f-87b8-dcd71bfc0905',
+    'vocabulary_machine_name' => 'category',
+    'metatags' => array(),
+    'parent' => array(
+      0 => '681e4b39-515c-486a-b5b0-d8b68f77c08b',
     ),
   );
   $terms[] = array(
@@ -2538,6 +3150,18 @@ function features_tax_category_exportation_uuid_features_default_terms() {
     'uuid' => 'fcc2a1a3-6a2e-4f02-9b35-6c0c6a43752a',
     'vocabulary_machine_name' => 'category',
     'metatags' => array(),
+  );
+  $terms[] = array(
+    'name' => '蚊帐',
+    'description' => NULL,
+    'format' => NULL,
+    'weight' => '0',
+    'uuid' => 'fccf1242-b97d-4c4f-96ac-1f069b7e71df',
+    'vocabulary_machine_name' => 'category',
+    'metatags' => array(),
+    'parent' => array(
+      0 => '3ff4840e-daa3-4f61-a185-bc136650ba74',
+    ),
   );
   $terms[] = array(
     'name' => '枸杞',

@@ -78,6 +78,7 @@ dependencies[] = xmlsitemap
 ;dependencies[] = l10n_update
 
 dependencies[] = features_block_configuration
+dependencies[] = features_brand_importation
 dependencies[] = features_clamav_configuration
 dependencies[] = features_ckeditor_configuration
 dependencies[] = features_ct_article_creatation
@@ -87,6 +88,7 @@ dependencies[] = features_tax_category_exportation
 dependencies[] = features_disqus_configuration
 dependencies[] = features_file_system_configuration
 dependencies[] = features_google_analytics_configuration
+dependencies[] = features_jquery_configuration
 dependencies[] = features_menu_category_exportation
 dependencies[] = features_performance_configuration
 dependencies[] = features_permission_configuration
@@ -97,8 +99,6 @@ dependencies[] = features_theme_configuration
 dependencies[] = features_views_taxonomy_views 
 dependencies[] = features_views_top100_exportation
 dependencies[] = features_xml_sitemap_configuration
-dependencies[] = features_brand_importation
-
 
 ; Information added by drupal.org packaging script on 2013-03-07
 version = "7.21"
