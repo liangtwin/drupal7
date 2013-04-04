@@ -7,9 +7,9 @@ dependencies[] = ctools
 dependencies[] = features
 dependencies[] = profile
 
-; Information added by drupal.org packaging script on 2013-03-14
-version = "7.x-1.0-alpha2+9-dev"
+; Information added by drupal.org packaging script on 2013-03-29
+version = "7.x-1.0-alpha2+15-dev"
 core = "7.x"
 project = "features_extra"
-datestamp = "1363266186"
+datestamp = "1364518764"
 

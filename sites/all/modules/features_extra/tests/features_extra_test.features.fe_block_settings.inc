@@ -14,7 +14,7 @@ function features_extra_test_default_fe_block_settings() {
 
   $export['block-features_extra_test_block'] = array(
     'cache' => -1,
-    'classes' => 'test-class',
+    'css_class' => 'test-class',
     'custom' => '0',
     'machine_name' => 'features_extra_test_block',
     'module' => 'block',
