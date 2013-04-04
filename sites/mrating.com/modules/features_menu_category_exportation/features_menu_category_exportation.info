@@ -1,7 +1,6 @@
-name = Features Menu Category Exportation
+name = features_menu_category_exportation
 core = 7.x
 package = Features
-php = 5.2.4
 version = 7.x-1.0
 project = features_menu_category_exportation
 dependencies[] = features
