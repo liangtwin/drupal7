@@ -15,25 +15,25 @@ function features_theme_configuration_strongarm() {
   $strongarm->api_version = 1;
   $strongarm->name = 'color_pixture_reloaded_files';
   $strongarm->value = array(
-    0 => 'public://color/pixture_reloaded-824afb88/bullet-round.png',
-    1 => 'public://color/pixture_reloaded-824afb88/bullet-sm-arrow-right.png',
-    2 => 'public://color/pixture_reloaded-824afb88/bullet-sm-arrow-down.png',
-    3 => 'public://color/pixture_reloaded-824afb88/button.gif',
-    4 => 'public://color/pixture_reloaded-824afb88/button-o.gif',
-    5 => 'D:\\wamp2\\www\\drupal7\\sites\\mrating.com\\files\\color\\pixture_reloaded-824afb88/header.png',
-    6 => 'D:\\wamp2\\www\\drupal7\\sites\\mrating.com\\files\\color\\pixture_reloaded-824afb88/header-tile.png',
-    7 => 'D:\\wamp2\\www\\drupal7\\sites\\mrating.com\\files\\color\\pixture_reloaded-824afb88/menu-tile.png',
-    8 => 'D:\\wamp2\\www\\drupal7\\sites\\mrating.com\\files\\color\\pixture_reloaded-824afb88/bg-footer.png',
-    9 => 'D:\\wamp2\\www\\drupal7\\sites\\mrating.com\\files\\color\\pixture_reloaded-824afb88/bg-footer-tile.png',
-    10 => 'D:\\wamp2\\www\\drupal7\\sites\\mrating.com\\files\\color\\pixture_reloaded-824afb88/bg-menu.png',
-    11 => 'D:\\wamp2\\www\\drupal7\\sites\\mrating.com\\files\\color\\pixture_reloaded-824afb88/bg-title.png',
-    12 => 'D:\\wamp2\\www\\drupal7\\sites\\mrating.com\\files\\color\\pixture_reloaded-824afb88/bg-wall.png',
-    13 => 'D:\\wamp2\\www\\drupal7\\sites\\mrating.com\\files\\color\\pixture_reloaded-824afb88/bg-bar-lite.png',
-    14 => 'D:\\wamp2\\www\\drupal7\\sites\\mrating.com\\files\\color\\pixture_reloaded-824afb88/bg-bar.png',
-    15 => 'D:\\wamp2\\www\\drupal7\\sites\\mrating.com\\files\\color\\pixture_reloaded-824afb88/bg-lbar-lite.png',
-    16 => 'D:\\wamp2\\www\\drupal7\\sites\\mrating.com\\files\\color\\pixture_reloaded-824afb88/bg-lbar.png',
-    17 => 'D:\\wamp2\\www\\drupal7\\sites\\mrating.com\\files\\color\\pixture_reloaded-824afb88/sf-hover-tile.png',
-    18 => 'public://color/pixture_reloaded-824afb88/colors.css',
+    0 => 'public://color/pixture_reloaded-09771acd/bullet-round.png',
+    1 => 'public://color/pixture_reloaded-09771acd/bullet-sm-arrow-right.png',
+    2 => 'public://color/pixture_reloaded-09771acd/bullet-sm-arrow-down.png',
+    3 => 'public://color/pixture_reloaded-09771acd/button.gif',
+    4 => 'public://color/pixture_reloaded-09771acd/button-o.gif',
+    5 => 'D:\\wamp2\\www\\drupal7\\sites\\mrating.com\\files\\color\\pixture_reloaded-09771acd/header.png',
+    6 => 'D:\\wamp2\\www\\drupal7\\sites\\mrating.com\\files\\color\\pixture_reloaded-09771acd/header-tile.png',
+    7 => 'D:\\wamp2\\www\\drupal7\\sites\\mrating.com\\files\\color\\pixture_reloaded-09771acd/menu-tile.png',
+    8 => 'D:\\wamp2\\www\\drupal7\\sites\\mrating.com\\files\\color\\pixture_reloaded-09771acd/bg-footer.png',
+    9 => 'D:\\wamp2\\www\\drupal7\\sites\\mrating.com\\files\\color\\pixture_reloaded-09771acd/bg-footer-tile.png',
+    10 => 'D:\\wamp2\\www\\drupal7\\sites\\mrating.com\\files\\color\\pixture_reloaded-09771acd/bg-menu.png',
+    11 => 'D:\\wamp2\\www\\drupal7\\sites\\mrating.com\\files\\color\\pixture_reloaded-09771acd/bg-title.png',
+    12 => 'D:\\wamp2\\www\\drupal7\\sites\\mrating.com\\files\\color\\pixture_reloaded-09771acd/bg-wall.png',
+    13 => 'D:\\wamp2\\www\\drupal7\\sites\\mrating.com\\files\\color\\pixture_reloaded-09771acd/bg-bar-lite.png',
+    14 => 'D:\\wamp2\\www\\drupal7\\sites\\mrating.com\\files\\color\\pixture_reloaded-09771acd/bg-bar.png',
+    15 => 'D:\\wamp2\\www\\drupal7\\sites\\mrating.com\\files\\color\\pixture_reloaded-09771acd/bg-lbar-lite.png',
+    16 => 'D:\\wamp2\\www\\drupal7\\sites\\mrating.com\\files\\color\\pixture_reloaded-09771acd/bg-lbar.png',
+    17 => 'D:\\wamp2\\www\\drupal7\\sites\\mrating.com\\files\\color\\pixture_reloaded-09771acd/sf-hover-tile.png',
+    18 => 'public://color/pixture_reloaded-09771acd/colors.css',
   );
   $export['color_pixture_reloaded_files'] = $strongarm;
 
@@ -41,7 +41,7 @@ function features_theme_configuration_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'color_pixture_reloaded_logo';
-  $strongarm->value = 'public://color/pixture_reloaded-824afb88/logo.png';
+  $strongarm->value = 'public://color/pixture_reloaded-09771acd/logo.png';
   $export['color_pixture_reloaded_logo'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -74,7 +74,7 @@ function features_theme_configuration_strongarm() {
   $strongarm->api_version = 1;
   $strongarm->name = 'color_pixture_reloaded_stylesheets';
   $strongarm->value = array(
-    0 => 'public://color/pixture_reloaded-824afb88/colors.css',
+    0 => 'public://color/pixture_reloaded-09771acd/colors.css',
   );
   $export['color_pixture_reloaded_stylesheets'] = $strongarm;
 
@@ -118,11 +118,11 @@ function features_theme_configuration_strongarm() {
     'toggle_comment_user_picture' => 1,
     'toggle_comment_user_verification' => 1,
     'toggle_favicon' => 1,
-    'default_logo' => 1,
-    'logo_path' => '',
+    'default_logo' => 0,
+    'logo_path' => 'public://logo.png',
     'logo_upload' => '',
-    'default_favicon' => 1,
-    'favicon_path' => '',
+    'default_favicon' => 0,
+    'favicon_path' => 'public://favicon.ico',
     'favicon_upload' => '',
     'bigscreen_layout' => 'three-col-grail',
     'bigscreen_sidebar_unit' => '%',
@@ -144,7 +144,7 @@ function features_theme_configuration_strongarm() {
     'tablet_landscape_max_width_unit' => 'px',
     'tablet_landscape_max_width' => '960',
     'tablet_landscape_media_query' => 'only screen and (min-width:769px) and (max-width:1024px)',
-    'tablet_portrait_layout' => 'one-col-vert',
+    'tablet_portrait_layout' => 'two-col-stack',
     'tablet_portrait_sidebar_unit' => '%',
     'tablet_portrait_sidebar_first' => '50',
     'tablet_portrait_sidebar_second' => '50',
@@ -219,7 +219,7 @@ function features_theme_configuration_strongarm() {
     'image_caption_full' => 0,
     'menu_bar_position' => 'mbp-l',
     'menu_bullets' => 'mb-dd',
-    'at__active_tab' => 'edit-bigscreen',
+    'at__active_tab' => 'edit-tablet',
     'scheme' => 'earthbrown',
     'palette' => array(
       'base' => '#cfb377',
@@ -809,6 +809,7 @@ function features_theme_configuration_strongarm() {
       'preview_css' => 'color/preview.css',
       'base_image' => 'color/base.png',
     ),
+    'favicon_mimetype' => 'image/vnd.microsoft.icon',
   );
   $export['theme_pixture_reloaded_settings'] = $strongarm;
 

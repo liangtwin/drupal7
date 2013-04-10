@@ -13,9 +13,9 @@ function features_tax_category_exportation_taxonomy_default_vocabularies() {
       'name' => '品牌分类',
       'machine_name' => 'category',
       'description' => '',
-      'hierarchy' => '0',
+      'hierarchy' => 0,
       'module' => 'taxonomy',
-      'weight' => '0',
+      'weight' => 0,
       'rdf_mapping' => array(
         'rdftype' => array(
           0 => 'skos:ConceptScheme',

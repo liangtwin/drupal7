@@ -1,0 +1,8 @@
+filename = "Martin-2013-04-09T11-01-29"
+description = ""
+datestamp = "1365476497"
+generator = "Backup and Migrate (http://drupal.org/project/backup_migrate)"
+generatorversion = "7.x-2.x"
+sites[0][version] = "7.22"
+sites[0][name] = "Martin"
+sites[0][url] = "http://mrating.com/"
