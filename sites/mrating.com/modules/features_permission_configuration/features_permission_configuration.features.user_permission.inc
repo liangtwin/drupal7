@@ -521,6 +521,13 @@ function features_permission_configuration_user_default_permissions() {
     'module' => 'xmlsitemap',
   );
 
+  // Exported permission: allow CKFinder file uploads.
+  $permissions['allow CKFinder file uploads'] = array(
+    'name' => 'allow CKFinder file uploads',
+    'roles' => array(),
+    'module' => 'ckeditor',
+  );
+
   // Exported permission: block IP addresses.
   $permissions['block IP addresses'] = array(
     'name' => 'block IP addresses',
@@ -830,6 +837,24 @@ function features_permission_configuration_user_default_permissions() {
     'module' => 'devel',
   );
 
+  // Exported permission: export nodes.
+  $permissions['export nodes'] = array(
+    'name' => 'export nodes',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'node_export',
+  );
+
+  // Exported permission: export own nodes.
+  $permissions['export own nodes'] = array(
+    'name' => 'export own nodes',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'node_export',
+  );
+
   // Exported permission: flush caches.
   $permissions['flush caches'] = array(
     'name' => 'flush caches',
@@ -1091,12 +1116,20 @@ function features_permission_configuration_user_default_permissions() {
     'module' => 'googleanalytics',
   );
 
+  // Exported permission: use PHP to import nodes.
+  $permissions['use PHP to import nodes'] = array(
+    'name' => 'use PHP to import nodes',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'node_export',
+  );
+
   // Exported permission: use advanced search.
   $permissions['use advanced search'] = array(
     'name' => 'use advanced search',
     'roles' => array(
       'administrator' => 'administrator',
-      'anonymous user' => 'anonymous user',
       'authenticated user' => 'authenticated user',
     ),
     'module' => 'search',
