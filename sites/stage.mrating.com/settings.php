@@ -147,7 +147,7 @@
  *     'authmap'   => 'shared_',
  *   ),
  * @endcode
- * You can also use a reference to a schema/database as a prefix. This maybe
+ * You can also use a reference to a schema/database as a prefix. This may be
  * useful if your Drupal installation exists in a schema that is not the default
  * or you want to access several databases from the same code base at the same
  * time.
@@ -210,7 +210,21 @@
  *   );
  * @endcode
  */
-$databases = array();
+$databases = array (
+  'default' => 
+  array (
+    'default' => 
+    array (
+      'database' => 'mrating_stage',
+      'username' => 'mrating',
+      'password' => 'mr@tingdb',
+      'host' => 'localhost',
+      'port' => '',
+      'driver' => 'mysql',
+      'prefix' => '',
+    ),
+  ),
+);
 
 /**
  * Access control for update.php script.
@@ -242,7 +256,7 @@ $update_free_access = FALSE;
  *   $drupal_hash_salt = file_get_contents('/home/example/salt.txt');
  *
  */
-$drupal_hash_salt = '';
+$drupal_hash_salt = 'rqqqiazuSbJTsSUSA_ivXcF6E-_UE9z6AbTVkUk6aMw';
 
 /**
  * Base URL (optional).
@@ -435,7 +449,7 @@ ini_set('session.cookie_lifetime', 2000000);
 /**
  * String overrides:
  *
- * To override specific strings on your site with or without enabling locale
+ * To override specific strings on your site with or without enabling the Locale
  * module, add an entry to this list. This functionality allows you to change
  * a small number of your site's default English language interface strings.
  *
@@ -551,18 +565,3 @@ $conf['404_fast_html'] = '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
  * Remove the leading hash signs to disable.
  */
 # $conf['allow_authorize_operations'] = FALSE;
-
-if (!isset($_SERVER['PHP_AUTH_USER'])) { 
-  header('WWW-Authenticate: Basic realm="My Private Stuff"'); 
-  header('HTTP/1.0 401 Unauthorized'); 
-  echo 'Authorization Required.'; 
-  exit; 
-} 
-else if (isset($_SERVER['PHP_AUTH_USER'])) { 
-  if (($_SERVER['PHP_AUTH_USER'] != "mrating") || ($_SERVER['PHP_AUTH_PW'] != "Mrating2323")) { 
-    header('WWW-Authenticate: Basic realm="My Private Stuff"'); 
-    header('HTTP/1.0 401 Unauthorized'); 
-    echo 'Authorization Required.';
-    exit; 
-  } 
-} 
