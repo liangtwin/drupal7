@@ -57,6 +57,7 @@ dependencies[] = module_filter
 ;dependencies[] = mollom
 dependencies[] = mrating_votingapi_export
 dependencies[] = mrating_backup_migrate_configuration
+dependencies[] = node_export
 dependencies[] = nodequeue
 dependencies[] = pathauto
 dependencies[] = print
@@ -78,7 +79,7 @@ dependencies[] = xmlsitemap
 ;dependencies[] = l10n_update
 
 dependencies[] = features_block_configuration
-dependencies[] = features_brand_importation
+;dependencies[] = features_brand_importation
 dependencies[] = features_clamav_configuration
 dependencies[] = features_ckeditor_configuration
 dependencies[] = features_ct_article_creatation
