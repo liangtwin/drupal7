@@ -1,0 +1,8 @@
+name = Features CSS Injector Configuration
+core = 7.x
+package = Features
+version = 7.x-1.0
+project = features_css_injector_configuration
+dependencies[] = css_injector
+features[features_api][] = api:1
+project path = sites/mrating.com/modules
