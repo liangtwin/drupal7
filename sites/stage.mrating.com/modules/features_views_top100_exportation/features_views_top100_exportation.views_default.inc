@@ -23,18 +23,15 @@ function features_views_top100_exportation_views_default_views() {
   /* Display: Master */
   $handler = $view->new_display('default', 'Master', 'default');
   $handler->display->display_options['title'] = 'Top 100';
+  $handler->display->display_options['use_more'] = TRUE;
   $handler->display->display_options['use_more_always'] = FALSE;
   $handler->display->display_options['access']['type'] = 'perm';
   $handler->display->display_options['cache']['type'] = 'none';
   $handler->display->display_options['query']['type'] = 'views_query';
   $handler->display->display_options['exposed_form']['type'] = 'basic';
   $handler->display->display_options['exposed_form']['options']['reset_button_label'] = '重置';
-  $handler->display->display_options['pager']['type'] = 'full';
+  $handler->display->display_options['pager']['type'] = 'some';
   $handler->display->display_options['pager']['options']['items_per_page'] = '10';
-  $handler->display->display_options['pager']['options']['tags']['first'] = '« 第一页';
-  $handler->display->display_options['pager']['options']['tags']['previous'] = '‹ 前一页';
-  $handler->display->display_options['pager']['options']['tags']['next'] = '下一页 ›';
-  $handler->display->display_options['pager']['options']['tags']['last'] = '末页 »';
   $handler->display->display_options['style_plugin'] = 'default';
   $handler->display->display_options['row_plugin'] = 'node';
   /* 字段: 内容: 标题 */
@@ -109,13 +106,6 @@ function features_views_top100_exportation_views_default_views() {
     t('Sort by'),
     t('Asc'),
     t('Desc'),
-    t('Items per page'),
-    t('- All -'),
-    t('Offset'),
-    t('« 第一页'),
-    t('‹ 前一页'),
-    t('下一页 ›'),
-    t('末页 »'),
     t('评分'),
     t('评论总数'),
     t('.'),
