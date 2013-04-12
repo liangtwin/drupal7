@@ -1,7 +1,0 @@
-<?php
-/**
- * @file
- * Code for the Features Disqus Configuration feature.
- */
-
-include_once 'features_disqus_configuration.features.inc';
