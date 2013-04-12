@@ -565,3 +565,20 @@ $conf['404_fast_html'] = '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
  * Remove the leading hash signs to disable.
  */
 # $conf['allow_authorize_operations'] = FALSE;
+
+if($_SERVER["HTTP_HOST"] == 'stage.mrating.com') {
+  if (!isset($_SERVER['PHP_AUTH_USER'])) { 
+    header('WWW-Authenticate: Basic realm="My Private Stuff"'); 
+    header('HTTP/1.0 401 Unauthorized'); 
+    echo 'Authorization Required.'; 
+    exit; 
+  } 
+  else if (isset($_SERVER['PHP_AUTH_USER'])) { 
+    if (($_SERVER['PHP_AUTH_USER'] != "mrating") || ($_SERVER['PHP_AUTH_PW'] != "Mrating2323")) { 
+      header('WWW-Authenticate: Basic realm="My Private Stuff"'); 
+      header('HTTP/1.0 401 Unauthorized'); 
+      echo 'Authorization Required.';
+      exit; 
+    } 
+  } 
+}

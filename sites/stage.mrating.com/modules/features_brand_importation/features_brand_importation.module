@@ -1,7 +1,0 @@
-<?php
-/**
- * @file
- * Code for the Features Brand Importation feature.
- */
-
-include_once 'features_brand_importation.features.inc';

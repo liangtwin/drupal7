@@ -1,7 +1,0 @@
-<?php
-/**
- * @file
- * Code for the Features JQuery Configuration feature.
- */
-
-include_once 'features_jquery_configuration.features.inc';

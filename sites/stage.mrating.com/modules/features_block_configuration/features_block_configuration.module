@@ -1,7 +1,0 @@
-<?php
-/**
- * @file
- * Code for the Features Block Configuration feature.
- */
-
-include_once 'features_block_configuration.features.inc';

@@ -1,7 +1,0 @@
-<?php
-/**
- * @file
- * Code for the Features File System Configuration feature.
- */
-
-include_once 'features_file_system_configuration.features.inc';
