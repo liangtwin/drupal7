@@ -281,6 +281,18 @@ function features_tax_category_exportation_uuid_features_default_terms() {
     ),
   );
   $terms[] = array(
+    'name' => '奶酪',
+    'description' => NULL,
+    'format' => NULL,
+    'weight' => 0,
+    'uuid' => '1289ea25-579d-47c4-8bfb-ca65152cb32a',
+    'vocabulary_machine_name' => 'category',
+    'metatags' => array(),
+    'parent' => array(
+      0 => '7b1a1263-9bc3-45b0-b332-e15228cf7a61',
+    ),
+  );
+  $terms[] = array(
     'name' => '童装童鞋',
     'description' => NULL,
     'format' => NULL,
@@ -3212,6 +3224,18 @@ function features_tax_category_exportation_uuid_features_default_terms() {
     'metatags' => array(),
     'parent' => array(
       0 => 'ea13db65-9143-43bd-86ee-43d5f6fdc88d',
+    ),
+  );
+  $terms[] = array(
+    'name' => '酸奶',
+    'description' => NULL,
+    'format' => NULL,
+    'weight' => 0,
+    'uuid' => 'd61951d8-1a63-4d8b-85eb-e3bffce7b70e',
+    'vocabulary_machine_name' => 'category',
+    'metatags' => array(),
+    'parent' => array(
+      0 => '7b1a1263-9bc3-45b0-b332-e15228cf7a61',
     ),
   );
   $terms[] = array(
