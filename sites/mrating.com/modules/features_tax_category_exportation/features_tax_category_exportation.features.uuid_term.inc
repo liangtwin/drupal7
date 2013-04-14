@@ -3083,18 +3083,6 @@ function features_tax_category_exportation_uuid_features_default_terms() {
     ),
   );
   $terms[] = array(
-    'name' => '海参',
-    'description' => NULL,
-    'format' => NULL,
-    'weight' => 0,
-    'uuid' => 'ce99d92e-9850-4f84-94a3-f6d63a9dd111',
-    'vocabulary_machine_name' => 'category',
-    'metatags' => array(),
-    'parent' => array(
-      0 => 'a388b9eb-c81d-4639-848d-5b16d4aa253e',
-    ),
-  );
-  $terms[] = array(
     'name' => '经济型酒店',
     'description' => NULL,
     'format' => NULL,
