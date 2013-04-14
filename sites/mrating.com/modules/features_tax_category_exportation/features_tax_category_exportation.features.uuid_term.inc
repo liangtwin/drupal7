@@ -554,6 +554,18 @@ function features_tax_category_exportation_uuid_features_default_terms() {
     ),
   );
   $terms[] = array(
+    'name' => '白兰地',
+    'description' => NULL,
+    'format' => NULL,
+    'weight' => 0,
+    'uuid' => '22f2301d-bf94-4f59-b38d-c3b534e4d3b9',
+    'vocabulary_machine_name' => 'category',
+    'metatags' => array(),
+    'parent' => array(
+      0 => 'ac015bb6-8f96-4469-abcd-f3e3dc6400de',
+    ),
+  );
+  $terms[] = array(
     'name' => '咖啡',
     'description' => NULL,
     'format' => NULL,
@@ -788,6 +800,18 @@ function features_tax_category_exportation_uuid_features_default_terms() {
     'metatags' => array(),
     'parent' => array(
       0 => 'a388b9eb-c81d-4639-848d-5b16d4aa253e',
+    ),
+  );
+  $terms[] = array(
+    'name' => '威士忌',
+    'description' => NULL,
+    'format' => NULL,
+    'weight' => 0,
+    'uuid' => '38cd6b41-c638-448b-8e90-43065385fc69',
+    'vocabulary_machine_name' => 'category',
+    'metatags' => array(),
+    'parent' => array(
+      0 => 'ac015bb6-8f96-4469-abcd-f3e3dc6400de',
     ),
   );
   $terms[] = array(
@@ -1763,6 +1787,18 @@ function features_tax_category_exportation_uuid_features_default_terms() {
     'metatags' => array(),
   );
   $terms[] = array(
+    'name' => '伏特加',
+    'description' => NULL,
+    'format' => NULL,
+    'weight' => 0,
+    'uuid' => '81cea64e-db26-4a08-a1fa-04e583548ab2',
+    'vocabulary_machine_name' => 'category',
+    'metatags' => array(),
+    'parent' => array(
+      0 => 'ac015bb6-8f96-4469-abcd-f3e3dc6400de',
+    ),
+  );
+  $terms[] = array(
     'name' => '橱柜五金',
     'description' => NULL,
     'format' => NULL,
@@ -2054,6 +2090,18 @@ function features_tax_category_exportation_uuid_features_default_terms() {
     'metatags' => array(),
     'parent' => array(
       0 => 'daae468b-0138-4c1e-ae15-80cd8e6a6392',
+    ),
+  );
+  $terms[] = array(
+    'name' => '香槟',
+    'description' => NULL,
+    'format' => NULL,
+    'weight' => 0,
+    'uuid' => '967c8746-faf6-4065-9cf9-66d63b29f0ef',
+    'vocabulary_machine_name' => 'category',
+    'metatags' => array(),
+    'parent' => array(
+      0 => 'ac015bb6-8f96-4469-abcd-f3e3dc6400de',
     ),
   );
   $terms[] = array(
@@ -2702,6 +2750,18 @@ function features_tax_category_exportation_uuid_features_default_terms() {
     ),
   );
   $terms[] = array(
+    'name' => '朗姆酒',
+    'description' => NULL,
+    'format' => NULL,
+    'weight' => 0,
+    'uuid' => 'b464707a-6e1c-4d5b-898b-a2efebdf9142',
+    'vocabulary_machine_name' => 'category',
+    'metatags' => array(),
+    'parent' => array(
+      0 => 'ac015bb6-8f96-4469-abcd-f3e3dc6400de',
+    ),
+  );
+  $terms[] = array(
     'name' => '浴室柜',
     'description' => NULL,
     'format' => NULL,
@@ -3002,6 +3062,18 @@ function features_tax_category_exportation_uuid_features_default_terms() {
     ),
   );
   $terms[] = array(
+    'name' => '葡萄酒',
+    'description' => NULL,
+    'format' => NULL,
+    'weight' => 0,
+    'uuid' => 'cade7c2c-021a-4197-b1a1-d02a19ea41dd',
+    'vocabulary_machine_name' => 'category',
+    'metatags' => array(),
+    'parent' => array(
+      0 => 'ac015bb6-8f96-4469-abcd-f3e3dc6400de',
+    ),
+  );
+  $terms[] = array(
     'name' => '精致内衣',
     'description' => NULL,
     'format' => NULL,
@@ -3116,6 +3188,18 @@ function features_tax_category_exportation_uuid_features_default_terms() {
     'metatags' => array(),
     'parent' => array(
       0 => '843f8b5a-8e1a-4c12-92ae-bf9a9f5dfea4',
+    ),
+  );
+  $terms[] = array(
+    'name' => '白酒',
+    'description' => NULL,
+    'format' => NULL,
+    'weight' => 0,
+    'uuid' => 'cfba829a-ff29-41c9-95b6-1df57049999a',
+    'vocabulary_machine_name' => 'category',
+    'metatags' => array(),
+    'parent' => array(
+      0 => 'ac015bb6-8f96-4469-abcd-f3e3dc6400de',
     ),
   );
   $terms[] = array(
@@ -3308,6 +3392,18 @@ function features_tax_category_exportation_uuid_features_default_terms() {
     ),
   );
   $terms[] = array(
+    'name' => '龙舌兰',
+    'description' => NULL,
+    'format' => NULL,
+    'weight' => 0,
+    'uuid' => 'dc24dc5e-bf56-4a88-9c1d-291de38f3457',
+    'vocabulary_machine_name' => 'category',
+    'metatags' => array(),
+    'parent' => array(
+      0 => 'ac015bb6-8f96-4469-abcd-f3e3dc6400de',
+    ),
+  );
+  $terms[] = array(
     'name' => '接线板',
     'description' => NULL,
     'format' => NULL,
@@ -3446,6 +3542,18 @@ function features_tax_category_exportation_uuid_features_default_terms() {
     'metatags' => array(),
     'parent' => array(
       0 => '516bf28a-4462-4d24-83dd-d0378603cd0d',
+    ),
+  );
+  $terms[] = array(
+    'name' => '黄酒',
+    'description' => NULL,
+    'format' => NULL,
+    'weight' => 0,
+    'uuid' => 'e53972aa-c1ec-4696-b7e1-40467bdf2405',
+    'vocabulary_machine_name' => 'category',
+    'metatags' => array(),
+    'parent' => array(
+      0 => 'ac015bb6-8f96-4469-abcd-f3e3dc6400de',
     ),
   );
   $terms[] = array(
@@ -3710,6 +3818,18 @@ function features_tax_category_exportation_uuid_features_default_terms() {
     'metatags' => array(),
     'parent' => array(
       0 => 'a0ef9218-3e77-4be6-8ce2-ecda21c3b99e',
+    ),
+  );
+  $terms[] = array(
+    'name' => '啤酒',
+    'description' => NULL,
+    'format' => NULL,
+    'weight' => 0,
+    'uuid' => 'f1fdb4c6-a44b-49d4-bfff-bc39a50add96',
+    'vocabulary_machine_name' => 'category',
+    'metatags' => array(),
+    'parent' => array(
+      0 => 'ac015bb6-8f96-4469-abcd-f3e3dc6400de',
     ),
   );
   $terms[] = array(
