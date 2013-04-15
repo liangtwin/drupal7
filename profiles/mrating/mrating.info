@@ -76,6 +76,8 @@ dependencies[] = views
 dependencies[] = views_ui
 dependencies[] = votingapi
 dependencies[] = xmlsitemap
+dependencies[] = xmlsitemap_engines
+dependencies[] = xmlsitemap_node
 ;dependencies[] = l10n_update
 
 dependencies[] = features_block_configuration
