@@ -13,9 +13,9 @@ function features_ct_article_creatation_taxonomy_default_vocabularies() {
       'name' => '标签',
       'machine_name' => 'tags',
       'description' => '用标签将相似的文章分门别类。',
-      'hierarchy' => '0',
+      'hierarchy' => 0,
       'module' => 'taxonomy',
-      'weight' => '0',
+      'weight' => 0,
       'rdf_mapping' => array(
         'rdftype' => array(
           0 => 'skos:ConceptScheme',
