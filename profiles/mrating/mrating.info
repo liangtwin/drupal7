@@ -70,6 +70,7 @@ dependencies[] = taxonomy_display
 dependencies[] = taxonomy_manager
 dependencies[] = taxonomy_menu
 dependencies[] = token
+dependencies[] = unique_field
 dependencies[] = uuid
 dependencies[] = uuid_features
 dependencies[] = views

@@ -154,6 +154,38 @@ function features_ct_brand_creatation_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'unique_field_comp_brand';
+  $strongarm->value = 'each';
+  $export['unique_field_comp_brand'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'unique_field_fields_brand';
+  $strongarm->value = array(
+    0 => 'title',
+  );
+  $export['unique_field_fields_brand'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'unique_field_scope_brand';
+  $strongarm->value = 'all';
+  $export['unique_field_scope_brand'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'unique_field_show_matches_brand';
+  $strongarm->value = array(
+    0 => 'show_matches',
+  );
+  $export['unique_field_show_matches_brand'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'xmlsitemap_settings_node_brand';
   $strongarm->value = array(
     'status' => '1',
