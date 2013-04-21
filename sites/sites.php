@@ -57,6 +57,7 @@
 $sites = array(
     'mrating.com' => 'mrating.com',
 	'stage.mrating.com' => 'mrating.com',
+	'youngkarate.com' => 'www.youngkarate.com'
 );
  
  
