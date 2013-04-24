@@ -1,0 +1,2 @@
+Patch for upgraded contributed module£¬[patchname], [fixed issue], [drupal.orgµÄlink]
+#1. exportables-1230956-6.patch, Support for Exportables (Features), http://drupal.org/node/1230956#comment-6068128
