@@ -13,7 +13,7 @@ function features_tax_category_exportation_taxonomy_default_vocabularies() {
       'name' => '品牌分类',
       'machine_name' => 'category',
       'description' => '',
-      'hierarchy' => 0,
+      'hierarchy' => 1,
       'module' => 'taxonomy',
       'weight' => 0,
       'rdf_mapping' => array(
