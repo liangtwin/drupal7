@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Features Views Related Brand Exportation feature.
+ */
+
+include_once 'features_views_related_brand_exportation.features.inc';
