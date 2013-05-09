@@ -571,7 +571,7 @@ function features_block_configuration_default_fe_block_settings() {
         'region' => 'sidebar_first',
         'status' => 1,
         'theme' => 'pixture_reloaded',
-        'weight' => -18,
+        'weight' => -19,
       ),
       'seven' => array(
         'region' => '',
@@ -922,13 +922,13 @@ function features_block_configuration_default_fe_block_settings() {
     'visibility' => 0,
   );
 
-  $export['views-top_100-block'] = array(
+  $export['views-related_brand-block'] = array(
     'cache' => -1,
     'custom' => 0,
-    'delta' => 'top_100-block',
+    'delta' => 'related_brand-block',
     'module' => 'views',
     'node_types' => array(),
-    'pages' => '',
+    'pages' => '<front>',
     'roles' => array(),
     'themes' => array(
       'pixture_reloaded' => array(
@@ -946,6 +946,32 @@ function features_block_configuration_default_fe_block_settings() {
     ),
     'title' => '',
     'visibility' => 0,
+  );
+
+  $export['views-top_100-block'] = array(
+    'cache' => -1,
+    'custom' => 0,
+    'delta' => 'top_100-block',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '<front>',
+    'roles' => array(),
+    'themes' => array(
+      'pixture_reloaded' => array(
+        'region' => 'sidebar_first',
+        'status' => 1,
+        'theme' => 'pixture_reloaded',
+        'weight' => -18,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 1,
   );
 
   return $export;
