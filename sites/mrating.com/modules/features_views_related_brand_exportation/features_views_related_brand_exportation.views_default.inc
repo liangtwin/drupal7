@@ -49,7 +49,7 @@ function features_views_related_brand_exportation_views_default_views() {
     'widget' => array(
       'fivestar_widget' => 'sites/all/modules/fivestar/widgets/oxygen/oxygen.css',
     ),
-    'expose' => 1,
+    'expose' => 0,
     'style' => 'average',
     'text' => 'average',
   );
