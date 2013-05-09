@@ -1,11 +1,12 @@
 name = Features Views Related Brand Exportation
 core = 7.x
 package = Features
-version = 7.x-1.0
+php = 5.2.4
+version = 7.x-1.1
 project = features_views_related_brand_exportation
+dependencies[] = ctools
 dependencies[] = views
 features[ctools][] = views:views_default:3.0
 features[features_api][] = api:1
 features[views_view][] = related_brand
-features_exclude[dependencies][ctools] = ctools
 project path = sites/mrating.com/modules
