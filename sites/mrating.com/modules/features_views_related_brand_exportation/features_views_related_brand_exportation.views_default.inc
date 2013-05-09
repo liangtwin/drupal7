@@ -40,11 +40,24 @@ function features_views_related_brand_exportation_views_default_views() {
   $handler->display->display_options['fields']['title']['label'] = '';
   $handler->display->display_options['fields']['title']['alter']['word_boundary'] = FALSE;
   $handler->display->display_options['fields']['title']['alter']['ellipsis'] = FALSE;
-  /* Sort criterion: 内容: Post date */
-  $handler->display->display_options['sorts']['created']['id'] = 'created';
-  $handler->display->display_options['sorts']['created']['table'] = 'node';
-  $handler->display->display_options['sorts']['created']['field'] = 'created';
-  $handler->display->display_options['sorts']['created']['order'] = 'DESC';
+  /* 字段: 内容: 评分 */
+  $handler->display->display_options['fields']['field_pingfen']['id'] = 'field_pingfen';
+  $handler->display->display_options['fields']['field_pingfen']['table'] = 'field_data_field_pingfen';
+  $handler->display->display_options['fields']['field_pingfen']['field'] = 'field_pingfen';
+  $handler->display->display_options['fields']['field_pingfen']['click_sort_column'] = 'rating';
+  $handler->display->display_options['fields']['field_pingfen']['settings'] = array(
+    'widget' => array(
+      'fivestar_widget' => 'sites/all/modules/fivestar/widgets/oxygen/oxygen.css',
+    ),
+    'expose' => 1,
+    'style' => 'average',
+    'text' => 'average',
+  );
+  /* Sort criterion: 内容: 评分 (field_pingfen:rating) */
+  $handler->display->display_options['sorts']['field_pingfen_rating']['id'] = 'field_pingfen_rating';
+  $handler->display->display_options['sorts']['field_pingfen_rating']['table'] = 'field_data_field_pingfen';
+  $handler->display->display_options['sorts']['field_pingfen_rating']['field'] = 'field_pingfen_rating';
+  $handler->display->display_options['sorts']['field_pingfen_rating']['order'] = 'DESC';
   /* Contextual filter: 内容: Has taxonomy term ID */
   $handler->display->display_options['arguments']['tid']['id'] = 'tid';
   $handler->display->display_options['arguments']['tid']['table'] = 'taxonomy_index';
@@ -94,6 +107,7 @@ function features_views_related_brand_exportation_views_default_views() {
     t('Sort by'),
     t('Asc'),
     t('Desc'),
+    t('评分'),
     t('全部'),
     t('Block'),
   );
