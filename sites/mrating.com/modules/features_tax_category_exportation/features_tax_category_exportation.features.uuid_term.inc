@@ -1541,6 +1541,18 @@ function features_tax_category_exportation_uuid_features_default_terms() {
     ),
   );
   $terms[] = array(
+    'name' => '矿泉水',
+    'description' => NULL,
+    'format' => NULL,
+    'weight' => 0,
+    'uuid' => '6d600792-0ee8-40ca-803e-42556e88cc1d',
+    'vocabulary_machine_name' => 'category',
+    'metatags' => array(),
+    'parent' => array(
+      0 => 'a63347ef-eba5-4432-a3f9-63e2a4ee6ee9',
+    ),
+  );
+  $terms[] = array(
     'name' => '服装配饰',
     'description' => '',
     'format' => 'filtered_html',
@@ -1667,6 +1679,18 @@ function features_tax_category_exportation_uuid_features_default_terms() {
     'metatags' => array(),
     'parent' => array(
       0 => 'cbb22b1e-dbde-41eb-8275-73fd9cc7339d',
+    ),
+  );
+  $terms[] = array(
+    'name' => '茶饮料',
+    'description' => NULL,
+    'format' => NULL,
+    'weight' => 0,
+    'uuid' => '746150e7-6521-40e3-a997-ac6bca061a43',
+    'vocabulary_machine_name' => 'category',
+    'metatags' => array(),
+    'parent' => array(
+      0 => 'a63347ef-eba5-4432-a3f9-63e2a4ee6ee9',
     ),
   );
   $terms[] = array(
@@ -3335,6 +3359,18 @@ function features_tax_category_exportation_uuid_features_default_terms() {
     ),
   );
   $terms[] = array(
+    'name' => '碳酸饮料',
+    'description' => NULL,
+    'format' => NULL,
+    'weight' => 0,
+    'uuid' => 'd677e409-4c2b-4d2b-9304-30d519e847eb',
+    'vocabulary_machine_name' => 'category',
+    'metatags' => array(),
+    'parent' => array(
+      0 => 'a63347ef-eba5-4432-a3f9-63e2a4ee6ee9',
+    ),
+  );
+  $terms[] = array(
     'name' => '单门',
     'description' => NULL,
     'format' => NULL,
@@ -4064,6 +4100,18 @@ function features_tax_category_exportation_uuid_features_default_terms() {
     'metatags' => array(),
     'parent' => array(
       0 => 'cbb22b1e-dbde-41eb-8275-73fd9cc7339d',
+    ),
+  );
+  $terms[] = array(
+    'name' => '功能饮料',
+    'description' => NULL,
+    'format' => NULL,
+    'weight' => 0,
+    'uuid' => 'ffefb9ef-ff43-4f7e-a129-80713e6e600b',
+    'vocabulary_machine_name' => 'category',
+    'metatags' => array(),
+    'parent' => array(
+      0 => 'a63347ef-eba5-4432-a3f9-63e2a4ee6ee9',
     ),
   );
   return $terms;
