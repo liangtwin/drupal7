@@ -293,6 +293,18 @@ function features_tax_category_exportation_uuid_features_default_terms() {
     ),
   );
   $terms[] = array(
+    'name' => '橄榄油',
+    'description' => NULL,
+    'format' => NULL,
+    'weight' => 0,
+    'uuid' => '12993cda-d625-4485-8ba6-977e869eb57c',
+    'vocabulary_machine_name' => 'category',
+    'metatags' => array(),
+    'parent' => array(
+      0 => 'd135f92e-730d-4d22-8b8b-9b80eeec8cf8',
+    ),
+  );
+  $terms[] = array(
     'name' => '童装童鞋',
     'description' => NULL,
     'format' => NULL,
